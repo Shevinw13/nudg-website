@@ -45,7 +45,7 @@ export function createMetadata({
 
 export const homeMetadata = createMetadata({
   title: 'Nudgli - More 5-Star Reviews with One Simple Text',
-  description: 'Nudgli helps small service businesses get more Google reviews automatically. One text after every job turns happy customers into 5-star reviews.',
+  description: 'Nudgli turns happy customers into Google reviews and unhappy customers into conversations. Built for local service businesses. No CRM required.',
   path: '',
 });
 

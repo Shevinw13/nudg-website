@@ -7,28 +7,28 @@ import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 const KEY_FEATURES = [
   {
     icon: "tap",
-    title: "One-Tap Requests",
-    description: "Send review requests in seconds.",
+    title: "Send in Seconds",
+    description: "Enter a phone number. Tap send. That's the entire workflow.",
   },
   {
     icon: "route",
-    title: "Smart Review Routing",
-    description: "Happy customers receive your Google Review link. Customers needing attention come directly to you.",
+    title: "Smart Routing",
+    description: "Happy customers get your Google Review link. Unhappy customers come to you first.",
   },
   {
     icon: "chart",
-    title: "Real-Time Dashboard",
-    description: "Track reviews, ratings, and business growth at a glance.",
+    title: "Track Everything",
+    description: "See reviews, ratings, and growth from one simple dashboard.",
   },
   {
-    icon: "inbox",
-    title: "Feedback Inbox",
-    description: "View, respond, and resolve customer feedback in one place.",
+    icon: "shield",
+    title: "Protect Your Reputation",
+    description: "Resolve issues privately before they become public reviews.",
   },
   {
     icon: "lock",
-    title: "Secure & Reliable",
-    description: "Your customer conversations stay safe and protected.",
+    title: "No Setup Required",
+    description: "Download. Sign up. Add your Google link. Start sending.",
   },
 ];
 
@@ -38,10 +38,10 @@ export function Features() {
       <div className="text-center mb-12">
         <AnimateOnScroll animation="fade-slide-up">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy">
-            Built for busy service businesses.
+            No CRM. No integrations. No complicated setup.
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-xl mx-auto">
-            Everything you need to collect more reviews without adding extra work.
+            A technician standing next to their truck can send a review request in seconds.
           </p>
         </AnimateOnScroll>
       </div>

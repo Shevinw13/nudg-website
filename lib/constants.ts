@@ -32,12 +32,12 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const STEPS: Step[] = [
-  { number: 1, title: 'Send Request', description: "Enter your customer's phone number.", icon: 'phone-send' },
-  { number: 2, title: 'Nudgli Sends the Text', description: 'Nudgli automatically sends a friendly text asking for a rating.', icon: 'message-auto' },
-  { number: 3, title: 'Customer Replies', description: 'They simply reply with a number from 1–5.', icon: 'reply' },
-  { number: 4, title: 'Happy Customers', description: '5-star customers receive your Google Review link.', icon: 'star-link' },
-  { number: 5, title: 'Private Feedback', description: 'Lower ratings come directly to you so you can make things right.', icon: 'shield' },
-  { number: 6, title: 'Manage Everything', description: 'Track feedback and resolve issues from one inbox.', icon: 'inbox' },
+  { number: 1, title: 'Finish the Job', description: 'Complete your service as usual.', icon: 'check' },
+  { number: 2, title: 'Open Nudgli', description: "Enter the customer's phone number.", icon: 'phone-send' },
+  { number: 3, title: 'Tap Send', description: 'One tap. Less than 10 seconds.', icon: 'tap' },
+  { number: 4, title: 'Customer Replies', description: 'They text back a rating from 1–5.', icon: 'reply' },
+  { number: 5, title: 'Smart Routing', description: 'Nudgli automatically routes based on their rating.', icon: 'route' },
+  { number: 6, title: 'Results', description: 'More reviews. Fewer public complaints. Stronger relationships.', icon: 'trending-up' },
 ];
 
 
@@ -133,36 +133,36 @@ export const PRICING_TIERS: PricingTier[] = [
 ];
 
 export const INDUSTRIES: Industry[] = [
-  { name: 'HVAC', icon: 'thermometer' },
   { name: 'Plumbing', icon: 'wrench' },
+  { name: 'HVAC', icon: 'thermometer' },
   { name: 'Electrical', icon: 'zap' },
-  { name: 'Cleaning', icon: 'sparkles' },
-  { name: 'Landscaping', icon: 'tree' },
   { name: 'Roofing', icon: 'shield' },
+  { name: 'Landscaping', icon: 'tree' },
+  { name: 'Cleaning', icon: 'sparkles' },
   { name: 'Pest Control', icon: 'alert-circle' },
-  { name: '20+ Industries', icon: 'more-horizontal' },
+  { name: 'And More', icon: 'more-horizontal' },
 ];
 
 export const VALUE_PROPOSITIONS: ValueProposition[] = [
   {
+    icon: 'clock',
+    title: 'Capture the Moment',
+    description: 'Request feedback while the experience is still fresh.',
+  },
+  {
     icon: 'star',
     title: 'More 5-Star Reviews',
-    description: 'Turn happy customers into public advocates for your business.',
+    description: 'Happy customers are guided to leave a Google review.',
   },
   {
-    icon: 'shield-alert',
-    title: 'Catch Issues Early',
-    description: 'Know about unhappy customers before they leave a public review.',
-  },
-  {
-    icon: 'clock',
-    title: 'Save Time',
-    description: 'One text replaces manual follow-ups and review requests.',
+    icon: 'shield',
+    title: 'Protect Your Reputation',
+    description: 'Negative feedback comes to you privately — not Google.',
   },
   {
     icon: 'trending-up',
     title: 'Grow Your Business',
-    description: 'More reviews improve local visibility and customer trust.',
+    description: 'More reviews mean better visibility and more calls.',
   },
 ];
 
@@ -170,7 +170,7 @@ export const SMS_CONVERSATIONS: SmsConversation[] = [
   {
     label: 'Happy Customer',
     messages: [
-      { id: 'happy-1', direction: 'sent', message: 'Hi Jane! Thanks for choosing ABC Plumbing today. How would you rate your experience? Reply with a number from 1–5.', timestamp: 'Today 10:15 AM' },
+      { id: 'happy-1', direction: 'sent', message: 'Hi Jane! Thanks for choosing Summit Plumbing today. How would you rate your experience? Reply with a number from 1–5.', timestamp: 'Today 10:15 AM' },
       { id: 'happy-2', direction: 'received', message: '5', timestamp: 'Today 10:18 AM', ratingBadge: { value: 5, sentiment: 'positive' } },
       { id: 'happy-3', direction: 'sent', message: "🎉 Awesome! We're so glad you had a great experience. Would you mind taking 30 seconds to leave us a Google review?\n\nLeave a Review: https://g.page/ABCPlumbing/review\n\nThanks for supporting our local business!", timestamp: 'Today 10:18 AM' },
     ],
@@ -178,7 +178,7 @@ export const SMS_CONVERSATIONS: SmsConversation[] = [
   {
     label: 'Needs Attention',
     messages: [
-      { id: 'negative-1', direction: 'sent', message: 'Hi Jane! Thanks for choosing ABC Plumbing today. How would you rate your experience? Reply with a number from 1–5.', timestamp: 'Today 2:30 PM' },
+      { id: 'negative-1', direction: 'sent', message: 'Hi Jane! Thanks for choosing Summit Plumbing today. How would you rate your experience? Reply with a number from 1–5.', timestamp: 'Today 2:30 PM' },
       { id: 'negative-2', direction: 'received', message: '2', timestamp: 'Today 2:45 PM', ratingBadge: { value: 2, sentiment: 'negative' } },
       { id: 'negative-3', direction: 'sent', message: "We're sorry your experience wasn't what we hoped for. Someone from our team will reach out shortly to make things right.\n\nThank you for your feedback.", timestamp: 'Today 2:45 PM' },
     ],

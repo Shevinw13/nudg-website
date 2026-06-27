@@ -20,9 +20,8 @@ export function Hero() {
 
           <AnimateOnScroll animation="fade-slide-up" delay={100}>
             <p className="mt-6 text-lg text-gray-500 max-w-lg leading-relaxed">
-              Turn finished jobs into more 5-star Google reviews with one simple
-              text. Happy customers leave reviews. Unhappy customers come
-              directly to you.
+              Turn happy customers into Google reviews. Turn unhappy customers
+              into conversations.
             </p>
           </AnimateOnScroll>
 

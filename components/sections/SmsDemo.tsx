@@ -140,7 +140,7 @@ export function SmsDemo() {
             <div className="bg-white rounded-2xl border border-lightGray p-6 shadow-sm mb-6">
               <div className="bg-gray/60 rounded-xl p-4">
                 <Bubble direction="sent">
-                  Hi Jane! Thanks for choosing ABC Plumbing today. How would you rate your experience?{"\n\n"}Reply with a number from 1–5.
+                  Hi Jane! Thanks for choosing Summit Plumbing today. How would you rate your experience?{"\n\n"}Reply with a number from 1–5.
                 </Bubble>
                 <div className="flex justify-start mb-3 items-center gap-2">
                   <span className="bg-white border border-gray-100 shadow-sm text-navy rounded-[18px] rounded-bl-[4px] px-4 py-3 text-[13px] font-bold">5</span>
@@ -189,7 +189,7 @@ export function SmsDemo() {
             <div className="bg-white rounded-2xl border border-lightGray p-6 shadow-sm mb-6">
               <div className="bg-gray/60 rounded-xl p-4">
                 <Bubble direction="sent">
-                  Hi Jane! Thanks for choosing ABC Plumbing today. How would you rate your experience?{"\n\n"}Reply with a number from 1–5.
+                  Hi Jane! Thanks for choosing Summit Plumbing today. How would you rate your experience?{"\n\n"}Reply with a number from 1–5.
                 </Bubble>
                 <div className="flex justify-start mb-3 items-center gap-2">
                   <span className="bg-white border border-gray-100 shadow-sm text-navy rounded-[18px] rounded-bl-[4px] px-4 py-3 text-[13px] font-bold">2</span>
