@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <!-- Background -->
+  <rect width="375" height="812" fill="#F8FAFC"/>
+
+  <!-- Status bar area -->
+  <rect width="375" height="44" fill="#0B1D3A"/>
+  <text x="187" y="28" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14">9:41</text>
+
+  <!-- App header -->
+  <rect y="44" width="375" height="56" fill="#0B1D3A"/>
+  <text x="24" y="78" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="bold">Nudg</text>
+  <text x="351" y="78" text-anchor="end" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="14">Settings</text>
+
+  <!-- Dashboard greeting -->
+  <rect y="100" width="375" height="80" fill="#FFFFFF"/>
+  <text x="24" y="130" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="16">Good morning,</text>
+  <text x="24" y="155" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="22" font-weight="bold">Dashboard</text>
+
+  <!-- Stats cards row -->
+  <rect x="16" y="190" width="105" height="80" rx="12" fill="#E6F9F6"/>
+  <text x="68" y="220" text-anchor="middle" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">47</text>
+  <text x="68" y="248" text-anchor="middle" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">Reviews Sent</text>
+
+  <rect x="135" y="190" width="105" height="80" rx="12" fill="#E6F9F6"/>
+  <text x="187" y="220" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">38</text>
+  <text x="187" y="248" text-anchor="middle" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">Positive</text>
+
+  <rect x="254" y="190" width="105" height="80" rx="12" fill="#FEF2F2"/>
+  <text x="306" y="220" text-anchor="middle" fill="#EF4444" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">3</text>
+  <text x="306" y="248" text-anchor="middle" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">Needs Attention</text>
+
+  <!-- Chart section -->
+  <rect x="16" y="290" width="343" height="160" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="32" y="318" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Monthly Growth</text>
+
+  <!-- Simple bar chart -->
+  <rect x="48" y="380" width="30" height="50" rx="4" fill="#E6F9F6"/>
+  <rect x="98" y="360" width="30" height="70" rx="4" fill="#E6F9F6"/>
+  <rect x="148" y="340" width="30" height="90" rx="4" fill="#0CBFA6"/>
+  <rect x="198" y="350" width="30" height="80" rx="4" fill="#E6F9F6"/>
+  <rect x="248" y="330" width="30" height="100" rx="4" fill="#0CBFA6"/>
+  <rect x="298" y="310" width="30" height="120" rx="4" fill="#0CBFA6"/>
+
+  <!-- Recent activity section -->
+  <rect x="16" y="470" width="343" height="44" rx="8" fill="#FFFFFF"/>
+  <text x="32" y="498" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Recent Activity</text>
+
+  <!-- Activity items -->
+  <rect x="16" y="524" width="343" height="60" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="46" cy="554" r="16" fill="#E6F9F6"/>
+  <text x="46" y="559" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">5</text>
+  <text x="74" y="548" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13">John D. left a 5-star rating</text>
+  <text x="74" y="568" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">2 minutes ago</text>
+
+  <rect x="16" y="594" width="343" height="60" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="46" cy="624" r="16" fill="#E6F9F6"/>
+  <text x="46" y="629" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">5</text>
+  <text x="74" y="618" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13">Sarah M. left a 5-star rating</text>
+  <text x="74" y="638" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">15 minutes ago</text>
+
+  <rect x="16" y="664" width="343" height="60" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="46" cy="694" r="16" fill="#FEF2F2"/>
+  <text x="46" y="699" text-anchor="middle" fill="#EF4444" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">2</text>
+  <text x="74" y="688" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13">Mike R. needs attention</text>
+  <text x="74" y="708" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">1 hour ago</text>
+
+  <!-- Bottom tab bar -->
+  <rect y="762" width="375" height="50" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="75" cy="786" r="4" fill="#0CBFA6"/>
+  <text x="75" y="800" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="9">Home</text>
+  <circle cx="187" cy="786" r="4" fill="#9CA3AF"/>
+  <text x="187" y="800" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="9">Send</text>
+  <circle cx="300" cy="786" r="4" fill="#9CA3AF"/>
+  <text x="300" y="800" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="9">Inbox</text>
+</svg>

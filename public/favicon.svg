@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Teal arrow mark - the Nudg icon -->
+  <rect width="32" height="32" rx="6" fill="#0B1D3A"/>
+  <path d="M16 4 L26 14 L21 14 L21 26 L11 26 L11 14 L6 14 Z" fill="#0CBFA6"/>
+</svg>
