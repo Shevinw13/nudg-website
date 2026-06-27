@@ -16,8 +16,8 @@
     <path d="M60 0 L120 50 L90 50 L90 100 L30 100 L30 50 L0 50 Z" fill="#0CBFA6"/>
   </g>
 
-  <!-- "nudg" wordmark -->
-  <text x="600" y="310" text-anchor="middle" fill="#FFFFFF" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" letter-spacing="-2">nudg</text>
+  <!-- "nudgli" wordmark -->
+  <text x="600" y="310" text-anchor="middle" fill="#FFFFFF" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" letter-spacing="-2">nudgli</text>
 
   <!-- Tagline -->
   <text x="600" y="400" text-anchor="middle" fill="#0CBFA6" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="36" font-weight="500">More 5-star reviews. Less effort.</text>

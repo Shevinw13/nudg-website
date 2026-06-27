@@ -33,7 +33,7 @@ export const NAV_LINKS: NavLink[] = [
 
 export const STEPS: Step[] = [
   { number: 1, title: 'Send Request', description: "Enter your customer's phone number.", icon: 'phone-send' },
-  { number: 2, title: 'Nudg Sends the Text', description: 'Nudg automatically sends a friendly text asking for a rating.', icon: 'message-auto' },
+  { number: 2, title: 'Nudgli Sends the Text', description: 'Nudgli automatically sends a friendly text asking for a rating.', icon: 'message-auto' },
   { number: 3, title: 'Customer Replies', description: 'They simply reply with a number from 1–5.', icon: 'reply' },
   { number: 4, title: 'Happy Customers', description: '5-star customers receive your Google Review link.', icon: 'star-link' },
   { number: 5, title: 'Private Feedback', description: 'Lower ratings come directly to you so you can make things right.', icon: 'shield' },
@@ -188,7 +188,7 @@ export const SMS_CONVERSATIONS: SmsConversation[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 'testimonial-1',
-    quote: "Nudg made getting reviews effortless. I simply enter the customer's number before I leave the job and the reviews start coming in. It's the simplest tool we've added to our business.",
+    quote: "Nudgli made getting reviews effortless. I simply enter the customer's number before I leave the job and the reviews start coming in. It's the simplest tool we've added to our business.",
     name: 'Tom R.',
     title: 'Owner',
     businessType: 'HVAC Company',

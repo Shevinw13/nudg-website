@@ -12,9 +12,9 @@ export default function PrivacyPage() {
           Last updated: {new Date().getFullYear()}
         </p>
         <p>
-          Nudg (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your
+          Nudgli (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your
           privacy. This Privacy Policy explains how we collect, use, and safeguard your information
-          when you use the Nudg mobile application and visit our website.
+          when you use the Nudgli mobile application and visit our website.
         </p>
         <h2 className="text-xl font-semibold text-navy">Information We Collect</h2>
         <p>
@@ -36,8 +36,8 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold text-navy">Contact Us</h2>
         <p>
           If you have any questions about this Privacy Policy, please contact us at{' '}
-          <a href="mailto:hello@nudg.app" className="text-teal hover:underline">
-            hello@nudg.app
+          <a href="mailto:hello@nudgli.app" className="text-teal hover:underline">
+            hello@nudgli.app
           </a>.
         </p>
       </div>

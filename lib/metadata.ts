@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const BASE_URL = 'https://nudg.app';
+const BASE_URL = 'https://nudgli.app';
 
 export function createMetadata({
   title,
@@ -23,13 +23,13 @@ export function createMetadata({
       title,
       description,
       url,
-      siteName: 'Nudg',
+      siteName: 'Nudgli',
       images: [
         {
           url: `${BASE_URL}/images/og-image.svg`,
           width: 1200,
           height: 630,
-          alt: 'Nudg - More 5-star reviews with one simple text',
+          alt: 'Nudgli - More 5-star reviews with one simple text',
         },
       ],
       type: 'website',
@@ -44,19 +44,19 @@ export function createMetadata({
 }
 
 export const homeMetadata = createMetadata({
-  title: 'Nudg - More 5-Star Reviews with One Simple Text',
-  description: 'Nudg helps small service businesses get more Google reviews automatically. One text after every job turns happy customers into 5-star reviews.',
+  title: 'Nudgli - More 5-Star Reviews with One Simple Text',
+  description: 'Nudgli helps small service businesses get more Google reviews automatically. One text after every job turns happy customers into 5-star reviews.',
   path: '',
 });
 
 export const privacyMetadata = createMetadata({
-  title: 'Privacy Policy - Nudg',
-  description: 'Learn how Nudg protects your data and respects your privacy. Read our privacy policy for details on data collection and usage.',
+  title: 'Privacy Policy - Nudgli',
+  description: 'Learn how Nudgli protects your data and respects your privacy. Read our privacy policy for details on data collection and usage.',
   path: '/privacy',
 });
 
 export const termsMetadata = createMetadata({
-  title: 'Terms of Service - Nudg',
-  description: 'Read the Nudg terms of service to understand the rules and guidelines for using our SMS review collection platform.',
+  title: 'Terms of Service - Nudgli',
+  description: 'Read the Nudgli terms of service to understand the rules and guidelines for using our SMS review collection platform.',
   path: '/terms',
 });

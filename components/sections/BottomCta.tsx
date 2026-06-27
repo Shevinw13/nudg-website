@@ -16,7 +16,7 @@ export function BottomCta() {
     <SectionWrapper id="bottom-cta" background="navy">
       <AnimateOnScroll animation="fade-slide-up">
         <div className="flex flex-col items-center text-center">
-          {/* Nudg teal curved-arrow logo mark */}
+          {/* Nudgli logo mark */}
           <svg
             width="48"
             height="48"
@@ -27,10 +27,7 @@ export function BottomCta() {
             className="mb-6"
           >
             <rect width="48" height="48" rx="12" fill="#0CBFA6"/>
-            <path
-              d="M15 28c0-5 3-9 8-10v-4l10 8-10 8v-4c-4 0-6 2-8 6v-1c0-2 0-3 0-3z"
-              fill="white"
-            />
+            <path d="M14 30c0-8 5-13 12-14v-5l12 10-12 10v-5c-6 0-9 3-12 9v-2c0-1 0-2 0-3z" fill="white"/>
           </svg>
 
           {/* Headline */}
@@ -46,9 +43,6 @@ export function BottomCta() {
           <Button variant="primary" size="lg" href="#">
             Start Free Trial
           </Button>
-          <a href="#" className="mt-3 text-sm text-white/60 hover:text-white transition-colors underline underline-offset-4">
-            Download on the App Store
-          </a>
 
           {/* Trust indicators */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-8">

@@ -12,38 +12,38 @@ export default function TermsPage() {
           Last updated: {new Date().getFullYear()}
         </p>
         <p>
-          Welcome to Nudg. By accessing or using the Nudg application and website, you agree to be
+          Welcome to Nudgli. By accessing or using the Nudgli application and website, you agree to be
           bound by these Terms of Service. Please read them carefully.
         </p>
         <h2 className="text-xl font-semibold text-navy">Use of Service</h2>
         <p>
-          Nudg provides an SMS-based review collection service for small service businesses.
+          Nudgli provides an SMS-based review collection service for small service businesses.
           You must be at least 18 years old and have the legal authority to bind your business
           to these terms.
         </p>
         <h2 className="text-xl font-semibold text-navy">Subscriptions</h2>
         <p>
-          Nudg offers subscription plans managed through the Apple App Store. Pricing, SMS
+          Nudgli offers subscription plans managed through the Apple App Store. Pricing, SMS
           quotas, and billing are handled entirely by Apple. You may cancel your subscription
           at any time through your Apple ID settings.
         </p>
         <h2 className="text-xl font-semibold text-navy">Acceptable Use</h2>
         <p>
-          You agree to use Nudg only for lawful purposes and in accordance with applicable
+          You agree to use Nudgli only for lawful purposes and in accordance with applicable
           regulations including the Telephone Consumer Protection Act (TCPA). You must have
           consent from customers before sending SMS review requests.
         </p>
         <h2 className="text-xl font-semibold text-navy">Limitation of Liability</h2>
         <p>
-          Nudg is provided &quot;as is&quot; without warranties of any kind. We shall not be
+          Nudgli is provided &quot;as is&quot; without warranties of any kind. We shall not be
           liable for any indirect, incidental, or consequential damages arising from your use
           of the service.
         </p>
         <h2 className="text-xl font-semibold text-navy">Contact Us</h2>
         <p>
           If you have any questions about these Terms of Service, please contact us at{' '}
-          <a href="mailto:hello@nudg.app" className="text-teal hover:underline">
-            hello@nudg.app
+          <a href="mailto:hello@nudgli.app" className="text-teal hover:underline">
+            hello@nudgli.app
           </a>.
         </p>
       </div>

@@ -8,7 +8,7 @@ import { INDUSTRIES } from "@/lib/constants";
 
 const TESTIMONIALS_DATA = [
   {
-    quote: "Nudg made getting reviews effortless. I simply enter the customer's number before I leave the job and the reviews start coming in. It's the simplest tool we've added to our business.",
+    quote: "Nudgli made getting reviews effortless. I simply enter the customer's number before I leave the job and the reviews start coming in. It's the simplest tool we've added to our business.",
     name: "Tom R.",
     title: "Owner",
     business: "HVAC Company",
@@ -29,14 +29,14 @@ const TESTIMONIALS_DATA = [
     initials: "MJ",
   },
   {
-    quote: "I'm not a tech person at all. With Nudg I just type the number and hit send. That's it. My Google ranking has gone up and I'm getting more calls than ever.",
+    quote: "I'm not a tech person at all. With Nudgli I just type the number and hit send. That's it. My Google ranking has gone up and I'm getting more calls than ever.",
     name: "Linda K.",
     title: "Owner",
     business: "Landscaping",
     initials: "LK",
   },
   {
-    quote: "We used to ask customers in person and it felt awkward. Now Nudg handles it automatically and our review count has tripled. My techs love how simple it is.",
+    quote: "We used to ask customers in person and it felt awkward. Now Nudgli handles it automatically and our review count has tripled. My techs love how simple it is.",
     name: "David P.",
     title: "Founder",
     business: "Electrical Services",

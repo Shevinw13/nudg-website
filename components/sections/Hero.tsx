@@ -55,7 +55,7 @@ export function Hero() {
                 variant="primary"
                 size="lg"
                 href="#"
-                ariaLabel="Download Nudg on the App Store"
+                ariaLabel="Download Nudgli on the App Store"
               >
                 Download on the App Store
               </Button>
@@ -68,7 +68,7 @@ export function Hero() {
           <AnimateOnScroll animation="slide-up" delay={200}>
             <PhoneMockup
               imageSrc="/images/mockups/dashboard-mockup.svg"
-              imageAlt="Nudg app dashboard showing Review Opportunities Created, Happy Customers, Needs Attention, Response Rate, and a Send Review Request button"
+              imageAlt="Nudgli app dashboard showing Review Opportunities Created, Happy Customers, Needs Attention, Response Rate, and a Send Review Request button"
               className="w-[320px] md:w-[380px] lg:w-[400px]"
               priority={true}
             />

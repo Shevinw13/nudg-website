@@ -10,10 +10,10 @@ interface PhoneMockupProps {
 export function PhoneMockup({ imageSrc, imageAlt, className = "", priority = false }: PhoneMockupProps) {
   return (
     <div
-      className={`relative inline-block rounded-[40px] bg-navy border-[8px] border-navy shadow-2xl overflow-hidden ${className}`}
+      className={`relative inline-block rounded-[40px] bg-gray-800 border-[8px] border-gray-800 shadow-2xl overflow-hidden ${className}`}
     >
       {/* Notch / Dynamic Island */}
-      <div className="absolute top-3 left-1/2 -translate-x-1/2 z-10 w-[90px] h-[26px] bg-navy rounded-full" />
+      <div className="absolute top-3 left-1/2 -translate-x-1/2 z-10 w-[90px] h-[26px] bg-black rounded-full" />
 
       {/* Inner screen area */}
       <div className="rounded-[32px] overflow-hidden bg-white aspect-[9/19.5]">

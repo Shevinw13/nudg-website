@@ -10,13 +10,9 @@ export function Navbar() {
       aria-label="Main navigation"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-16">
-        <Link href="/" aria-label="Nudg - Back to home" className="flex items-center gap-2">
-          {/* Teal arrow logo mark */}
-          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="48" height="48" rx="12" fill="#0CBFA6"/>
-            <path d="M15 28c0-5 3-9 8-10v-4l10 8-10 8v-4c-4 0-6 2-8 6v-1c0-2 0-3 0-3z" fill="white"/>
-          </svg>
-          <span className="font-bold text-xl text-navy tracking-tight">nudg</span>
+        <Link href="/" aria-label="Nudgli - Back to home" className="flex items-center gap-2">
+          <img src="/images/applogo.png" alt="" width={32} height={32} className="rounded-lg" aria-hidden="true" />
+          <span className="font-bold text-xl text-navy tracking-tight">nudgli</span>
         </Link>
         <div className="hidden md:flex items-center gap-6">
           {NAV_LINKS.map((link) => (
@@ -31,7 +27,7 @@ export function Navbar() {
           <a
             href="#"
             className="inline-flex items-center min-h-[44px] px-4 py-2 rounded-lg bg-teal text-white text-sm font-medium hover:bg-teal/90 transition-colors"
-            aria-label="Download Nudg on the App Store"
+            aria-label="Download Nudgli on the App Store"
           >
             Start Free Trial
           </a>

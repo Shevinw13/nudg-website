@@ -8,26 +8,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {/* Column 1: Logo + Tagline */}
           <div className="lg:col-span-1">
-            {/* Nudg stacked logo: teal arrow icon above "nudg" wordmark */}
+            {/* Nudgli logo */}
             <div className="mb-4">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 48 48"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-label="Nudg logo"
-                role="img"
-              >
-                <rect width="48" height="48" rx="12" fill="#0CBFA6"/>
-                <path
-                  d="M15 28c0-5 3-9 8-10v-4l10 8-10 8v-4c-4 0-6 2-8 6v-1c0-2 0-3 0-3z"
-                  fill="white"
-                />
-              </svg>
-              {/* "nudg" wordmark in white */}
+              <img src="/images/applogo.png" alt="Nudgli logo" width={40} height={40} className="rounded-lg" />
               <span className="block text-2xl font-bold tracking-tight text-white mt-2">
-                nudg
+                nudgli
               </span>
             </div>
             <p className="text-teal text-sm font-medium">
@@ -43,7 +28,7 @@ export function Footer() {
             <a
               href="#"
               className="inline-flex items-center gap-2 min-h-[44px] bg-white text-navy px-4 py-2.5 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
-              aria-label="Download Nudg on the App Store"
+              aria-label="Download Nudgli on the App Store"
             >
               <svg
                 width="20"
@@ -97,10 +82,10 @@ export function Footer() {
               Contact
             </h3>
             <a
-              href="mailto:support@nudg.app"
+              href="mailto:support@nudgli.app"
               className="inline-flex items-center min-h-[44px] text-base text-white/80 hover:text-teal transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
             >
-              support@nudg.app
+              support@nudgli.app
             </a>
           </div>
         </div>
@@ -108,7 +93,7 @@ export function Footer() {
         {/* Bottom bar with copyright */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-sm text-white/60 text-center">
-            &copy; {new Date().getFullYear()} Nudg. All rights reserved.
+            &copy; {new Date().getFullYear()} Nudgli. All rights reserved.
           </p>
         </div>
       </div>

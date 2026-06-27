@@ -65,7 +65,7 @@ export function SmsDemo() {
             From one text to more 5-star reviews.
           </h2>
           <p className="mt-5 text-lg text-gray-500 max-w-lg mx-auto leading-relaxed">
-            One text. Two smart paths. Nudg routes every customer to the right next step.
+            One text. Two smart paths. Nudgli routes every customer to the right next step.
           </p>
         </div>
       </AnimateOnScroll>
