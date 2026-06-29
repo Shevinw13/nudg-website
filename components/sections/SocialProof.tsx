@@ -78,9 +78,10 @@ export function SocialProof() {
         {/* Industries subsection */}
         <AnimateOnScroll animation="fade-slide-up">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-8">
-              Built for Service Businesses
+            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-2">
+              Built for businesses that run on reputation.
             </h2>
+            <p className="text-gray-500 mb-8 text-sm">Especially service pros — but any business that depends on reviews.</p>
             <div className="grid grid-cols-4 gap-8">
               {INDUSTRIES.map((industry) => (
                 <div

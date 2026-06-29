@@ -4,91 +4,100 @@
 
   <!-- Status bar (dark) -->
   <rect width="375" height="54" fill="#0B1D3A"/>
-  <text x="32" y="32" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="600">2:48</text>
+  <text x="32" y="32" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="600">9:39</text>
   <!-- Dynamic island -->
   <rect x="130" y="8" width="115" height="28" rx="14" fill="#000000"/>
-  <!-- Status icons -->
-  <text x="340" y="32" text-anchor="end" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12">●●● ▪ ■</text>
 
   <!-- App header (navy bg) -->
   <rect y="54" width="375" height="90" fill="#0B1D3A"/>
-  <text x="24" y="88" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Good afternoon</text>
-  <text x="24" y="118" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">Summit Plumbing</text>
+  <text x="24" y="88" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13">Good evening</text>
+  <text x="24" y="118" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="22" font-weight="bold">Summit Plumbing</text>
   <!-- Nudgli logo icon (top right) -->
   <rect x="325" y="80" width="32" height="32" rx="8" fill="#0CBFA6"/>
   <path d="M335 98c0-3 2-5 5-6v-2l6 5-6 5v-3c-2 0-4 1-5 4v-1c0-1 0-2 0-2z" fill="white"/>
 
   <!-- White content area -->
-  <rect y="144" width="375" height="668" rx="24" fill="#FFFFFF"/>
+  <rect y="144" width="375" height="668" rx="20" fill="#FFFFFF"/>
+
+  <!-- Day / Week / Month tabs -->
+  <rect x="32" y="164" width="50" height="28" rx="14" fill="#F3F4F6"/>
+  <text x="57" y="182" text-anchor="middle" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">Day</text>
+  <rect x="90" y="164" width="55" height="28" rx="14" fill="#F3F4F6"/>
+  <text x="117" y="182" text-anchor="middle" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11">Week</text>
+  <rect x="153" y="164" width="62" height="28" rx="14" fill="#0B1D3A"/>
+  <text x="184" y="182" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Month</text>
 
   <!-- Review Opportunities Card -->
-  <rect x="24" y="168" width="327" height="110" rx="16" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="40" y="196" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">REVIEW OPPORTUNITIES CREATED</text>
-  <text x="40" y="245" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="42" font-weight="bold">12</text>
-  <text x="40" y="268" fill="#6B7280" font-family="system-ui, sans-serif" font-size="12">12 this month</text>
+  <text x="32" y="220" fill="#6B7280" font-family="system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">REVIEW OPPORTUNITIES CREATED</text>
+  <text x="32" y="275" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="48" font-weight="bold">47</text>
+  <text x="32" y="298" fill="#6B7280" font-family="system-ui, sans-serif" font-size="12">47 this month</text>
   <!-- Badge -->
-  <rect x="200" y="248" width="130" height="26" rx="13" fill="#F3F4F6"/>
-  <text x="265" y="265" text-anchor="middle" fill="#374151" font-family="system-ui, sans-serif" font-size="11">↑ 20% vs last month</text>
+  <rect x="200" y="280" width="140" height="24" rx="12" fill="#E6F9F6"/>
+  <text x="270" y="296" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="11" font-weight="500">↗ +24% vs last month</text>
 
   <!-- Stats row -->
-  <rect x="24" y="300" width="105" height="100" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
-  <!-- Positive icon -->
-  <circle cx="52" cy="326" r="14" fill="#E6F9F6"/>
-  <path d="M46 326l4 4 8-8" stroke="#0CBFA6" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <text x="40" y="362" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">8</text>
-  <text x="40" y="383" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Positive</text>
-  <text x="40" y="395" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Responses</text>
+  <!-- Positive Responses -->
+  <rect x="24" y="320" width="105" height="100" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="52" cy="346" r="12" fill="#DCFCE7"/>
+  <path d="M47 346l3 3 5-5" stroke="#22C55E" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="40" y="382" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">34</text>
+  <text x="40" y="398" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Positive</text>
+  <text x="40" y="410" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Responses</text>
 
-  <rect x="141" y="300" width="105" height="100" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
-  <!-- Needs Attention icon -->
-  <circle cx="169" cy="326" r="14" fill="#FEF3C7"/>
-  <text x="169" y="331" text-anchor="middle" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">!</text>
-  <text x="157" y="362" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">1</text>
-  <text x="157" y="383" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Needs</text>
-  <text x="157" y="395" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Attention</text>
+  <!-- Needs Follow-up -->
+  <rect x="139" y="320" width="105" height="100" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="167" cy="346" r="12" fill="#FEF3C7"/>
+  <text x="167" y="351" text-anchor="middle" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">!</text>
+  <text x="155" y="382" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">6</text>
+  <text x="155" y="398" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Needs</text>
+  <text x="155" y="410" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Follow-up</text>
 
-  <rect x="258" y="300" width="105" height="100" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
-  <!-- Response Rate icon -->
-  <circle cx="286" cy="326" r="14" fill="#EDE9FE"/>
-  <path d="M280 330l4-8 4 4 4-6" stroke="#7C3AED" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <text x="274" y="362" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">67%</text>
-  <text x="274" y="383" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Response</text>
-  <text x="274" y="395" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Rate</text>
+  <!-- Response Rate -->
+  <rect x="254" y="320" width="105" height="100" rx="14" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <circle cx="282" cy="346" r="12" fill="#DBEAFE"/>
+  <path d="M276 348l4-4 4 4 4-6" stroke="#3B82F6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="270" y="382" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="24" font-weight="bold">85%</text>
+  <text x="270" y="398" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Response</text>
+  <text x="270" y="410" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Rate</text>
 
-  <!-- Send Review Request Button -->
-  <rect x="24" y="424" width="327" height="52" rx="14" fill="#0CBFA6"/>
-  <text x="187" y="455" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="600">+ Send Review Request</text>
+  <!-- Send Review Request button -->
+  <rect x="24" y="440" width="327" height="52" rx="14" fill="#0CBFA6"/>
+  <text x="187" y="471" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="16" font-weight="600">+ Send Review Request</text>
 
   <!-- Recent Activity heading -->
-  <text x="24" y="516" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Recent Activity</text>
+  <text x="24" y="530" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" font-style="italic">Recent Activity</text>
+  <text x="340" y="530" text-anchor="end" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="13">View all</text>
 
   <!-- Activity item 1 -->
-  <rect x="24" y="534" width="327" height="64" rx="12" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="0.5"/>
-  <circle cx="52" cy="566" r="14" fill="#E6F9F6"/>
-  <text x="52" y="571" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">5</text>
-  <text x="78" y="560" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13" font-weight="500">John D. left a 5-star rating</text>
-  <text x="78" y="578" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">2 minutes ago</text>
+  <rect x="24" y="548" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="0.5"/>
+  <circle cx="56" cy="580" r="16" fill="#F3F4F6"/>
+  <text x="56" y="584" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">👤</text>
+  <text x="82" y="572" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13" font-weight="500">James Mitchell</text>
+  <text x="82" y="592" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="12">★★★★★</text>
+  <text x="330" y="580" text-anchor="end" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">25m ago</text>
 
   <!-- Activity item 2 -->
-  <rect x="24" y="606" width="327" height="64" rx="12" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="0.5"/>
-  <circle cx="52" cy="638" r="14" fill="#E6F9F6"/>
-  <text x="52" y="643" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">5</text>
-  <text x="78" y="632" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Sarah M. left a 5-star rating</text>
-  <text x="78" y="650" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">15 minutes ago</text>
+  <rect x="24" y="622" width="327" height="64" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="0.5"/>
+  <circle cx="56" cy="654" r="16" fill="#F3F4F6"/>
+  <text x="56" y="658" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">👤</text>
+  <text x="82" y="646" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Rachel Kim</text>
+  <text x="82" y="666" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="12">★★★★★</text>
+  <text x="330" y="654" text-anchor="end" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">2h ago</text>
 
-  <!-- Activity item 3 -->
-  <rect x="24" y="678" width="327" height="64" rx="12" fill="#F8FAFC" stroke="#E5E7EB" stroke-width="0.5"/>
-  <circle cx="52" cy="710" r="14" fill="#FEF2F2"/>
-  <text x="52" y="715" text-anchor="middle" fill="#EF4444" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">2</text>
-  <text x="78" y="704" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Mike R. needs attention</text>
-  <text x="78" y="722" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">1 hour ago</text>
+  <!-- Activity item 3 (partial) -->
+  <rect x="24" y="696" width="327" height="44" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="0.5"/>
+  <circle cx="56" cy="718" r="16" fill="#F3F4F6"/>
+  <text x="56" y="722" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="11">👤</text>
+  <text x="82" y="722" fill="#0B1D3A" font-family="system-ui, sans-serif" font-size="13" font-weight="500">David Chen</text>
 
   <!-- Bottom tab bar -->
-  <rect y="762" width="375" height="50" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
-  <!-- Home tab (active) -->
-  <text x="65" y="790" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="10" font-weight="500">Home</text>
-  <!-- Inbox tab -->
-  <text x="187" y="790" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">Inbox</text>
-  <!-- Settings tab -->
-  <text x="310" y="790" text-anchor="middle" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="10">Settings</text>
+  <rect y="752" width="375" height="60" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Home (active) -->
+  <text x="78" y="785" text-anchor="middle" fill="#0CBFA6" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Home</text>
+  <!-- Inbox with badge -->
+  <text x="187" y="785" text-anchor="middle" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Inbox</text>
+  <circle cx="202" cy="770" r="8" fill="#EF4444"/>
+  <text x="202" y="774" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="8" font-weight="bold">4</text>
+  <!-- Settings -->
+  <text x="296" y="785" text-anchor="middle" fill="#6B7280" font-family="system-ui, sans-serif" font-size="10">Settings</text>
 </svg>
