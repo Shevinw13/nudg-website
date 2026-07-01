@@ -54,9 +54,9 @@ export function Hero() {
                 variant="primary"
                 size="lg"
                 href="#"
-                ariaLabel="Download Nudgli on the App Store"
+                ariaLabel="Start free trial of Nudgli"
               >
-                Download on the App Store
+                Start Free Trial
               </Button>
             </div>
           </AnimateOnScroll>
@@ -65,12 +65,14 @@ export function Hero() {
         {/* Phone mockup — right column on desktop */}
         <div className="mt-12 lg:mt-0 flex justify-center lg:flex-1">
           <AnimateOnScroll animation="slide-up" delay={200}>
-            <PhoneMockup
-              imageSrc="/images/mockups/dashboard-mockup.svg"
-              imageAlt="Nudgli app dashboard showing Review Opportunities Created, Happy Customers, Needs Attention, Response Rate, and a Send Review Request button"
-              className="w-[320px] md:w-[380px] lg:w-[400px]"
-              priority={true}
-            />
+            <div className="hover:scale-[1.02] transition-transform duration-300">
+              <PhoneMockup
+                imageSrc="/images/mockups/dashboard-mockup.svg"
+                imageAlt="Nudgli app dashboard showing Review Opportunities Created, Happy Customers, Needs Attention, Response Rate, and a Send Review Request button"
+                className="w-[320px] md:w-[380px] lg:w-[400px]"
+                priority={true}
+              />
+            </div>
           </AnimateOnScroll>
         </div>
       </div>

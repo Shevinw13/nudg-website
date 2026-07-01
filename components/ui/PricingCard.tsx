@@ -19,7 +19,7 @@ export function PricingCard({
 }: PricingCardProps) {
   return (
     <div
-      className={`bg-white rounded-2xl p-8 shadow-sm relative hover-lift ${
+      className={`bg-white rounded-2xl p-8 shadow-sm relative hover:shadow-lg hover:-translate-y-1 transition-all duration-200 ${
         highlighted
           ? "border-2 border-teal md:scale-105 shadow-lg"
           : "border border-lightGray"
@@ -34,7 +34,7 @@ export function PricingCard({
       <p className="text-4xl font-bold text-navy mb-1">{price}</p>
       <p className="text-base text-gray-500 mb-4">{smsQuota}</p>
       <p className="text-base text-gray-600 mb-6">{description}</p>
-      <Button variant={highlighted ? "primary" : "outline"} href="#">
+      <Button variant={highlighted ? "primary" : "outline"} href="#" className="w-full">
         {highlighted ? "Start Free Trial" : "Get Started"}
       </Button>
     </div>

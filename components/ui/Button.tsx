@@ -10,9 +10,9 @@ interface ButtonProps {
 }
 
 const variantStyles: Record<ButtonProps["variant"], string> = {
-  primary: "bg-teal text-white hover:opacity-90",
-  secondary: "bg-navy text-white hover:opacity-90",
-  outline: "border-2 border-teal text-teal hover:bg-teal hover:text-white",
+  primary: "bg-teal text-white hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5",
+  secondary: "bg-navy text-white hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5",
+  outline: "border-2 border-teal text-teal hover:bg-teal hover:text-white hover:shadow-lg hover:-translate-y-0.5",
 };
 
 const sizeStyles: Record<NonNullable<ButtonProps["size"]>, string> = {

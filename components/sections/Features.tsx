@@ -54,7 +54,7 @@ export function Features() {
             delay={index * 80}
             className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
           >
-            <div className="bg-gray rounded-2xl p-6 h-full flex flex-col hover-lift">
+            <div className="bg-gray rounded-2xl p-6 h-full flex flex-col hover:shadow-md hover:-translate-y-1 transition-all duration-200">
               <div className="w-10 h-10 rounded-xl bg-mint flex items-center justify-center mb-4">
                 <Icon name={feature.icon} size={20} className="text-teal" ariaHidden />
               </div>

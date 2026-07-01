@@ -16,19 +16,15 @@ export function BottomCta() {
     <SectionWrapper id="bottom-cta" background="navy">
       <AnimateOnScroll animation="fade-slide-up">
         <div className="flex flex-col items-center text-center">
-          {/* Nudgli logo mark */}
-          <svg
-            width="48"
-            height="48"
-            viewBox="0 0 48 48"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+          {/* Nudgli logo */}
+          <img
+            src="/images/applogo.png"
+            alt=""
+            width={48}
+            height={48}
+            className="mb-6 rounded-xl"
             aria-hidden="true"
-            className="mb-6"
-          >
-            <rect width="48" height="48" rx="12" fill="#0CBFA6"/>
-            <path d="M14 30c0-8 5-13 12-14v-5l12 10-12 10v-5c-6 0-9 3-12 9v-2c0-1 0-2 0-3z" fill="white"/>
-          </svg>
+          />
 
           {/* Headline */}
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">

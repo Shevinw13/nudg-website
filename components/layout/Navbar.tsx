@@ -26,8 +26,8 @@ export function Navbar() {
           ))}
           <a
             href="#"
-            className="inline-flex items-center min-h-[44px] px-4 py-2 rounded-lg bg-teal text-white text-sm font-medium hover:bg-teal/90 transition-colors"
-            aria-label="Download Nudgli on the App Store"
+            className="inline-flex items-center justify-center min-h-[44px] min-w-[44px] px-4 py-2 rounded-xl bg-teal text-white text-sm font-semibold hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
+            aria-label="Start free trial of Nudgli"
           >
             Start Free Trial
           </a>
