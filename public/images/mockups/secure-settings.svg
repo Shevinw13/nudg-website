@@ -1,0 +1,55 @@
+<svg width="280" height="560" viewBox="0 0 280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="280" height="560" fill="#FFFFFF"/>
+  
+  <!-- Status bar -->
+  <rect width="280" height="44" fill="#0B1D3A"/>
+  <text x="20" y="28" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="white">9:41</text>
+  <circle cx="240" cy="22" r="4" fill="white" opacity="0.8"/>
+  <rect x="250" y="18" width="16" height="8" rx="2" fill="white" opacity="0.8"/>
+  
+  <!-- Header -->
+  <rect y="44" width="280" height="56" fill="#0B1D3A"/>
+  <text x="20" y="78" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="white">Security</text>
+  <text x="20" y="94" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#0CBFA6">Your data protection settings</text>
+  
+  <!-- Shield icon centered -->
+  <circle cx="140" cy="140" r="28" fill="#E6F9F6"/>
+  <!-- Shield path -->
+  <path d="M140 118 L156 126 L156 140 C156 152 148 158 140 162 C132 158 124 152 124 140 L124 126 Z" fill="#0CBFA6" stroke="#0CBFA6" stroke-width="1.5"/>
+  <path d="M134 140 L138 144 L147 135" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Status text -->
+  <text x="140" y="184" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#0B1D3A" text-anchor="middle">All Systems Secure</text>
+  
+  <!-- Security items -->
+  <rect x="16" y="210" width="248" height="56" rx="12" fill="#F2F4F7"/>
+  <circle cx="40" cy="238" r="12" fill="#E6F9F6"/>
+  <path d="M36 238 L39 241 L45 235" stroke="#0CBFA6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="60" y="233" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0B1D3A">AES-256 Encryption</text>
+  <text x="60" y="248" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#6B7280">All customer data encrypted at rest</text>
+  
+  <rect x="16" y="278" width="248" height="56" rx="12" fill="#F2F4F7"/>
+  <circle cx="40" cy="306" r="12" fill="#E6F9F6"/>
+  <path d="M36 306 L39 309 L45 303" stroke="#0CBFA6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="60" y="301" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0B1D3A">TLS in Transit</text>
+  <text x="60" y="316" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#6B7280">End-to-end encrypted connections</text>
+  
+  <rect x="16" y="346" width="248" height="56" rx="12" fill="#F2F4F7"/>
+  <circle cx="40" cy="374" r="12" fill="#E6F9F6"/>
+  <path d="M36 374 L39 377 L45 371" stroke="#0CBFA6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="60" y="369" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0B1D3A">Audit Logging</text>
+  <text x="60" y="384" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#6B7280">Every action is tracked and logged</text>
+  
+  <rect x="16" y="414" width="248" height="56" rx="12" fill="#F2F4F7"/>
+  <circle cx="40" cy="442" r="12" fill="#E6F9F6"/>
+  <path d="M36 442 L39 445 L45 439" stroke="#0CBFA6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="60" y="437" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0B1D3A">Data Deletion</text>
+  <text x="60" y="452" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#6B7280">GDPR-style removal on request</text>
+  
+  <rect x="16" y="482" width="248" height="56" rx="12" fill="#F2F4F7"/>
+  <circle cx="40" cy="510" r="12" fill="#E6F9F6"/>
+  <path d="M36 510 L39 513 L45 507" stroke="#0CBFA6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <text x="60" y="505" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#0B1D3A">No Data Selling</text>
+  <text x="60" y="520" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#6B7280">Your customer data is never shared</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg width="280" height="560" viewBox="0 0 280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - iPhone lock screen style -->
+  <rect width="280" height="560" fill="#1a1a2e"/>
+  
+  <!-- Status bar -->
+  <text x="20" y="28" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="white">9:41</text>
+  <circle cx="240" cy="22" r="4" fill="white" opacity="0.8"/>
+  <rect x="250" y="18" width="16" height="8" rx="2" fill="white" opacity="0.8"/>
+  
+  <!-- Time display -->
+  <text x="140" y="120" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="300" fill="white" text-anchor="middle" letter-spacing="-2">9:41</text>
+  <text x="140" y="148" font-family="Inter, system-ui, sans-serif" font-size="14" fill="white" opacity="0.6" text-anchor="middle">Friday, July 3</text>
+  
+  <!-- Push notification card -->
+  <rect x="12" y="190" width="256" height="120" rx="16" fill="white" fill-opacity="0.95"/>
+  
+  <!-- App icon in notification -->
+  <rect x="24" y="204" width="32" height="32" rx="8" fill="#0CBFA6"/>
+  <path d="M34 220 L46 214 L46 226 Z" fill="white"/>
+  
+  <!-- Notification header -->
+  <text x="64" y="216" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0B1D3A">NUDGLI</text>
+  <text x="64" y="230" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#9CA3AF">now</text>
+  
+  <!-- Notification content -->
+  <text x="24" y="258" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#0B1D3A">🎉 New 5-Star Review!</text>
+  <text x="24" y="276" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">Jane Smith rated you 5 stars. A Google</text>
+  <text x="24" y="292" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">Review link was sent automatically.</text>
+  
+  <!-- Second notification -->
+  <rect x="12" y="322" width="256" height="100" rx="16" fill="white" fill-opacity="0.9"/>
+  
+  <!-- App icon -->
+  <rect x="24" y="336" width="32" height="32" rx="8" fill="#0CBFA6"/>
+  <path d="M34 352 L46 346 L46 358 Z" fill="white"/>
+  
+  <!-- Header -->
+  <text x="64" y="348" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#0B1D3A">NUDGLI</text>
+  <text x="64" y="362" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#9CA3AF">2m ago</text>
+  
+  <!-- Content -->
+  <text x="24" y="390" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#0B1D3A">⚠️ Needs Attention</text>
+  <text x="24" y="408" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280">Mike Johnson rated 2 stars. Feedback</text>
+  <text x="24" y="424" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#6B7280" font-style="italic">routed to your inbox.</text>
+  
+  <!-- Bottom hint -->
+  <rect x="100" y="520" width="80" height="5" rx="2.5" fill="white" opacity="0.4"/>
+</svg>

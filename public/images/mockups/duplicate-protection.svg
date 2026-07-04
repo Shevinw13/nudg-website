@@ -1,0 +1,47 @@
+<svg width="280" height="560" viewBox="0 0 280 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="280" height="560" fill="#FFFFFF"/>
+  
+  <!-- Status bar -->
+  <rect width="280" height="44" fill="#0B1D3A"/>
+  <text x="20" y="28" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="white">9:41</text>
+  <circle cx="240" cy="22" r="4" fill="white" opacity="0.8"/>
+  <rect x="250" y="18" width="16" height="8" rx="2" fill="white" opacity="0.8"/>
+  
+  <!-- Header -->
+  <rect y="44" width="280" height="56" fill="#0B1D3A"/>
+  <text x="20" y="78" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="700" fill="white">Send Request</text>
+  <text x="20" y="94" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#0CBFA6">Review request via SMS</text>
+  
+  <!-- Warning banner -->
+  <rect x="16" y="116" width="248" height="64" rx="12" fill="#FEF3C7"/>
+  <rect x="16" y="116" width="248" height="64" rx="12" stroke="#F59E0B" stroke-width="1.5"/>
+  <circle cx="36" cy="140" r="10" fill="#F59E0B"/>
+  <text x="33" y="144" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="white">!</text>
+  <text x="52" y="140" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="600" fill="#92400E">Duplicate Detected</text>
+  <text x="52" y="158" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#A16207">This customer was texted 4 hours ago.</text>
+  <text x="52" y="172" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#A16207">Send again anyway?</text>
+  
+  <!-- Form fields -->
+  <text x="20" y="210" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#6B7280">CUSTOMER NAME</text>
+  <rect x="16" y="218" width="248" height="44" rx="10" fill="#F2F4F7"/>
+  <text x="28" y="245" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#0B1D3A">Jane Smith</text>
+  
+  <text x="20" y="290" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#6B7280">PHONE NUMBER</text>
+  <rect x="16" y="298" width="248" height="44" rx="10" fill="#F2F4F7"/>
+  <text x="28" y="325" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#0B1D3A">(555) 012-3456</text>
+  
+  <text x="20" y="370" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#6B7280">SERVICE TYPE (OPTIONAL)</text>
+  <rect x="16" y="378" width="248" height="44" rx="10" fill="#F2F4F7"/>
+  <text x="28" y="405" font-family="Inter, system-ui, sans-serif" font-size="14" fill="#9CA3AF">e.g. Plumbing repair</text>
+  
+  <!-- Action buttons -->
+  <rect x="16" y="450" width="120" height="44" rx="12" fill="#F2F4F7"/>
+  <text x="50" y="476" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="#6B7280">Cancel</text>
+  
+  <rect x="144" y="450" width="120" height="44" rx="12" fill="#F59E0B"/>
+  <text x="158" y="476" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600" fill="white">Send Anyway</text>
+  
+  <!-- Bottom text -->
+  <text x="140" y="520" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#9CA3AF" text-anchor="middle">Last sent: Today at 2:15 PM</text>
+</svg>

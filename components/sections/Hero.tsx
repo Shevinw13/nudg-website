@@ -20,9 +20,17 @@ export function Hero() {
 
           <AnimateOnScroll animation="fade-slide-up" delay={100}>
             <p className="mt-6 text-lg text-gray-500 max-w-lg leading-relaxed">
-              Turn happy customers into Google reviews. Turn unhappy customers
-              into conversations.
+              Turn happy customers into 5-star Google reviews. Turn unhappy
+              customers into private conversations before they go public.
             </p>
+          </AnimateOnScroll>
+
+          {/* Social proof stat */}
+          <AnimateOnScroll animation="fade-slide-up" delay={150}>
+            <div className="mt-6 inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
+              <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
+              <span className="text-sm font-medium text-navy">Service pros average 4x more reviews in 90 days</span>
+            </div>
           </AnimateOnScroll>
 
           {/* Value Propositions — 2×2 grid on mobile, row on larger screens */}

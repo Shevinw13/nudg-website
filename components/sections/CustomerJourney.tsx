@@ -104,7 +104,7 @@ export function CustomerJourney() {
           <JourneyStep
             number={1}
             title="Complete the Job"
-            description="Finish your service — exactly like you already do."
+            description="Finish your service, exactly like you already do."
           />
         </AnimateOnScroll>
 
@@ -202,7 +202,7 @@ export function CustomerJourney() {
         <AnimateOnScroll animation="fade-slide-up" delay={400}>
           <JourneyStep
             number={7}
-            title="Unhappy? Feedback Comes to You — Not Google"
+            title="Unhappy? Feedback Comes to You, Not Google"
             description="1–3 star ratings are routed privately to your inbox so you can resolve issues before they become public reviews."
             accent="amber"
           >

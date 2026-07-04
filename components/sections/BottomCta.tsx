@@ -26,18 +26,18 @@ export function BottomCta() {
             aria-hidden="true"
           />
 
-          {/* Headline */}
+          {/* Headline — varied from hero */}
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
-            Your best customers want to help. They just need a nudge.
+            Every completed job is a 5-star review waiting to happen.
           </h2>
 
           <p className="text-lg text-white/70 mb-8 max-w-lg">
-            Start turning completed jobs into more 5-star reviews today.
+            Stop leaving reviews on the table. Start collecting them today.
           </p>
 
-          {/* CTA Button */}
+          {/* CTA Button — different from hero */}
           <Button variant="primary" size="lg" href="#">
-            Start Free Trial
+            Get Your First 5-Star Review
           </Button>
 
           {/* Trust indicators */}

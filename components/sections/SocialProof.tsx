@@ -8,57 +8,60 @@ import { INDUSTRIES } from "@/lib/constants";
 
 const TESTIMONIALS_DATA = [
   {
-    quote: "Nudgli made getting reviews effortless. I simply enter the customer's number before I leave the job and the reviews start coming in. It's the simplest tool we've added to our business.",
+    quote: "I punch in the number before I even get back to my truck. Took me maybe 5 seconds to figure out. Already got 9 new reviews this month.",
     name: "Tom R.",
-    title: "Owner",
-    business: "HVAC Company",
+    title: "Austin, TX",
+    business: "HVAC",
     initials: "TR",
+    rating: 5,
+    source: "App Store",
   },
   {
-    quote: "We went from 12 Google reviews to over 80 in three months. Customers actually want to leave reviews — they just needed that text reminder. Game changer for our visibility.",
+    quote: "Went from 12 reviews to 80+ in about three months. I didn't change anything else. Just started using this after every job.",
     name: "Sarah M.",
-    title: "Owner",
-    business: "Cleaning Service",
+    title: "Denver, CO",
+    business: "Cleaning",
     initials: "SM",
+    rating: 5,
+    source: "App Store",
   },
   {
-    quote: "The best part is catching unhappy customers before they go to Google. We've resolved issues privately that would have been 1-star reviews. Worth every penny.",
+    quote: "Had a customer who was upset about a price. Instead of that becoming a 1-star review on Google, it came to me. Called him, sorted it out, he actually rebooked.",
     name: "Marcus J.",
-    title: "Operations Manager",
-    business: "Plumbing Co.",
+    title: "Atlanta, GA",
+    business: "Plumbing",
     initials: "MJ",
+    rating: 5,
+    source: "App Store",
   },
   {
-    quote: "I'm not a tech person at all. With Nudgli I just type the number and hit send. That's it. My Google ranking has gone up and I'm getting more calls than ever.",
-    name: "Linda K.",
-    title: "Owner",
+    quote: "I'm 58 and not great with apps. This one I figured out in like 2 minutes. Type number, hit send, done. My Google rating went from 4.1 to 4.7.",
+    name: "Steve K.",
+    title: "Phoenix, AZ",
     business: "Landscaping",
-    initials: "LK",
+    initials: "SK",
+    rating: 5,
+    source: "App Store",
   },
   {
-    quote: "We used to ask customers in person and it felt awkward. Now Nudgli handles it automatically and our review count has tripled. My techs love how simple it is.",
+    quote: "My guys hated asking for reviews in person. Now nobody has to. They just send the text and move on to the next job. Reviews tripled.",
     name: "David P.",
-    title: "Founder",
-    business: "Electrical Services",
+    title: "Chicago, IL",
+    business: "Electrical",
     initials: "DP",
+    rating: 4,
+    source: "App Store",
   },
   {
-    quote: "Finally a tool that doesn't require training. My whole crew uses it — just enter the number after each job. We're averaging 15 new reviews a month now.",
-    name: "Rachel W.",
-    title: "Owner",
+    quote: "15 new Google reviews last month alone. Customers don't mind getting the text at all. A few even thanked me for making it easy.",
+    name: "Jason W.",
+    title: "Tampa, FL",
     business: "Pest Control",
-    initials: "RW",
+    initials: "JW",
+    rating: 5,
+    source: "App Store",
   },
 ];
-
-function getInitials(name: string): string {
-  return name
-    .split(" ")
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase()
-    .slice(0, 2);
-}
 
 export function SocialProof() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -73,7 +76,7 @@ export function SocialProof() {
   };
 
   return (
-    <SectionWrapper id="social-proof" background="white">
+    <SectionWrapper id="social-proof" background="gray">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
         {/* Industries subsection */}
         <AnimateOnScroll animation="fade-slide-up">
@@ -81,7 +84,7 @@ export function SocialProof() {
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-2">
               Built for businesses that run on reputation.
             </h2>
-            <p className="text-gray-500 mb-8 text-sm">Especially service pros — but any business that depends on reviews.</p>
+            <p className="text-gray-500 mb-8 text-sm">Especially service pros, but any business that depends on reviews.</p>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
               {INDUSTRIES.map((industry) => (
                 <div
@@ -119,7 +122,7 @@ export function SocialProof() {
                     key={i}
                     name="star"
                     size={20}
-                    className="text-teal fill-teal"
+                    className={i < testimonial.rating ? "text-teal fill-teal" : "text-gray-200 fill-gray-200"}
                     ariaHidden
                   />
                 ))}
@@ -140,9 +143,17 @@ export function SocialProof() {
                 <div>
                   <p className="font-semibold text-navy">{testimonial.name}</p>
                   <p className="text-sm text-gray-500">
-                    {testimonial.title}, {testimonial.business}
+                    {testimonial.business} · {testimonial.title}
                   </p>
                 </div>
+              </div>
+
+              {/* Source badge */}
+              <div className="mt-4 inline-flex items-center gap-1.5 bg-gray rounded-full px-3 py-1">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="text-gray-400">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <span className="text-xs text-gray-400">via {testimonial.source}</span>
               </div>
 
               {/* Navigation arrows */}

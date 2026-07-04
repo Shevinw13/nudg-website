@@ -5,7 +5,7 @@ import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 
 export function SmsDemo() {
   return (
-    <SectionWrapper id="sms-demo" background="white">
+    <SectionWrapper id="sms-demo" background="white" sectionClassName="!pb-6 lg:!pb-10">
       {/* Header */}
       <AnimateOnScroll animation="fade-slide-up">
         <div className="text-center mb-14">
@@ -13,7 +13,7 @@ export function SmsDemo() {
             The Nudgli Difference
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-xl mx-auto">
-            Every other platform sends all customers to Google. Nudgli is smarter.
+            Other platforms send every customer to Google. Nudgli routes them intelligently based on their rating.
           </p>
         </div>
       </AnimateOnScroll>

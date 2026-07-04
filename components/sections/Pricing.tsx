@@ -12,7 +12,7 @@ export function Pricing() {
             Simple, Transparent Pricing
           </h2>
           <p className="text-lg text-gray-600">
-            All features included in every plan
+            All features included in every plan. Pick the volume that fits.
           </p>
         </AnimateOnScroll>
       </div>
@@ -39,7 +39,7 @@ export function Pricing() {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10 space-y-1">
-        <p>14-day free trial · No contracts · Cancel anytime</p>
+        <p>14-day free trial · No credit card required · Cancel anytime</p>
         <p>Subscriptions managed through the Apple App Store</p>
       </div>
     </SectionWrapper>

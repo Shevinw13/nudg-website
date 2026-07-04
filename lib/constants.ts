@@ -152,12 +152,12 @@ export const VALUE_PROPOSITIONS: ValueProposition[] = [
   {
     icon: 'star',
     title: 'More 5-Star Reviews',
-    description: 'Happy customers are guided to leave a Google review.',
+    description: 'Happy customers are guided straight to Google.',
   },
   {
-    icon: 'shield',
-    title: 'Protect Your Reputation',
-    description: 'Negative feedback comes to you privately — not Google.',
+    icon: 'route',
+    title: 'Smart Routing',
+    description: 'Positive ratings go public. Negative ones stay private.',
   },
   {
     icon: 'trending-up',

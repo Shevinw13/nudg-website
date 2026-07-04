@@ -11,7 +11,7 @@ export function HowItWorks() {
             How It Works
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-lg mx-auto">
-            From job complete to 5-star review — in less than 10 seconds.
+            One tap after each job. Nudgli handles the rest.
           </p>
         </div>
       </AnimateOnScroll>
