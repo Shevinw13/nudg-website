@@ -62,9 +62,9 @@ export function Hero() {
                 variant="primary"
                 size="lg"
                 href="#"
-                ariaLabel="Start free trial of Nudgli"
+                ariaLabel="Nudgli coming soon to the App Store"
               >
-                Start Free Trial
+                Coming Soon
               </Button>
             </div>
           </AnimateOnScroll>

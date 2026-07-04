@@ -35,7 +35,7 @@ export function PricingCard({
       <p className="text-base text-gray-500 mb-4">{smsQuota}</p>
       <p className="text-base text-gray-600 mb-6">{description}</p>
       <Button variant={highlighted ? "primary" : "outline"} href="#" className="w-full">
-        {highlighted ? "Start Free Trial" : "Get Started"}
+        Coming Soon
       </Button>
     </div>
   );

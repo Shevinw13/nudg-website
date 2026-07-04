@@ -37,7 +37,7 @@ export function BottomCta() {
 
           {/* CTA Button — different from hero */}
           <Button variant="primary" size="lg" href="#">
-            Get Your First 5-Star Review
+            Coming Soon
           </Button>
 
           {/* Trust indicators */}

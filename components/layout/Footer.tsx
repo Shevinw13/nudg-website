@@ -28,7 +28,7 @@ export function Footer() {
             <a
               href="#"
               className="inline-flex items-center gap-2 min-h-[44px] bg-white text-navy px-4 py-2.5 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
-              aria-label="Download Nudgli on the App Store"
+              aria-label="Nudgli coming soon to the App Store"
             >
               <svg
                 width="20"
@@ -47,7 +47,7 @@ export function Footer() {
                   fill="#0B1D3A"
                 />
               </svg>
-              Download on the App Store
+              Coming Soon on the App Store
             </a>
           </div>
 
