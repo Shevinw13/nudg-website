@@ -29,7 +29,7 @@ export function createMetadata({
           url: `${BASE_URL}/images/og-image.svg`,
           width: 1200,
           height: 630,
-          alt: 'Nudgli - More 5-star reviews with one simple text',
+          alt: 'Nudgli - More 5-star reviews with one tap',
         },
       ],
       type: 'website',
@@ -44,7 +44,7 @@ export function createMetadata({
 }
 
 export const homeMetadata = createMetadata({
-  title: 'Nudgli - More 5-Star Reviews with One Simple Text',
+  title: 'Nudgli - More 5-Star Reviews with One Tap',
   description: 'Nudgli turns happy customers into Google reviews and unhappy customers into conversations. Built for local service businesses. No CRM required.',
   path: '',
 });
