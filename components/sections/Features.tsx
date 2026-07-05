@@ -16,7 +16,7 @@ const KEY_FEATURES = [
   {
     icon: "inbox",
     title: "Feedback Inbox",
-    description: "Unhappy customers land here, not on Google. Call them back, resolve the issue, protect your reputation.",
+    description: "Every customer response in one place. See who's happy, follow up with who's not, and mark issues resolved.",
     screen: "/images/mockups/app-send-request.png",
     screenAlt: "Nudgli send review request screen with a simple phone number input and send button",
   },
