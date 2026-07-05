@@ -165,7 +165,7 @@ export default function PrivacyPage() {
         <h2>12. Contact Us</h2>
         <p>If you have questions or concerns about this Privacy Policy or our data practices, contact us at:</p>
         <p>
-          Nudgli<br />
+          Nudgli LLC<br />
           Email:{' '}
           <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a>
         </p>

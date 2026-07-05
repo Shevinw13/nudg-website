@@ -217,7 +217,7 @@ export default function TermsPage() {
         <h2>19. Contact Us</h2>
         <p>If you have questions about these Terms, contact us at:</p>
         <p>
-          Nudgli<br />
+          Nudgli LLC<br />
           Email:{' '}
           <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a>
         </p>

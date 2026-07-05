@@ -121,7 +121,7 @@ export function Footer() {
         {/* Bottom bar with copyright */}
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-sm text-white/60 text-center">
-            &copy; {new Date().getFullYear()} Nudgli. All rights reserved.
+            &copy; {new Date().getFullYear()} Nudgli LLC. All rights reserved.
           </p>
         </div>
       </div>
