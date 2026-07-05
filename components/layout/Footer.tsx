@@ -16,7 +16,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-teal text-sm font-medium">
-              The reviews you&apos;ve earned but never received.
+              Your best customers want to help. They just need a nudge.
             </p>
           </div>
 
