@@ -75,8 +75,8 @@ export function Hero() {
           <AnimateOnScroll animation="slide-up" delay={200}>
             <div className="hover:scale-[1.02] transition-transform duration-300">
               <PhoneMockup
-                imageSrc="/images/mockups/dashboard-mockup.svg"
-                imageAlt="Nudgli app dashboard showing Review Opportunities Created, Happy Customers, Needs Attention, Response Rate, and a Send Review Request button"
+                imageSrc="/images/mockups/app-home.png"
+                imageAlt="Nudgli app home screen showing review opportunities created, positive responses, needs follow-up, response rate, and recent activity"
                 className="w-[320px] md:w-[380px] lg:w-[400px]"
                 priority={true}
               />
