@@ -29,7 +29,7 @@ export function Hero() {
           <AnimateOnScroll animation="fade-slide-up" delay={150}>
             <div className="mt-6 inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
               <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
-              <span className="text-sm font-medium text-navy">Service pros average 4x more reviews in 90 days</span>
+              <span className="text-sm font-medium text-navy">85% average response rate via text</span>
             </div>
           </AnimateOnScroll>
 
