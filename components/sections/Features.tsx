@@ -31,8 +31,8 @@ const KEY_FEATURES = [
     icon: "bell",
     title: "Instant Notifications",
     description: "Get a push alert within 60 seconds of new feedback, positive or negative.",
-    screen: "/images/mockups/app-home.png",
-    screenAlt: "Nudgli home screen showing recent activity feed with real-time review notifications",
+    screen: "/images/mockups/push-notification.svg",
+    screenAlt: "Phone lock screen showing Nudgli push notifications for a new 5-star review and a needs-attention alert",
   },
   {
     icon: "copy-check",
