@@ -53,7 +53,7 @@ export default function TermsPage() {
 
         <h2>4. Subscriptions and Payment</h2>
         <ul>
-          <li>The Service is offered through paid subscription plans with a 14-day free trial.</li>
+          <li>The Service is offered through paid subscription plans with a 7-day free trial.</li>
           <li>Subscriptions are billed and managed entirely through the Apple App Store.</li>
           <li>Each plan includes a monthly SMS quota. Messages beyond your quota will not be sent until the next billing cycle or an upgrade.</li>
           <li>Prices are subject to change. We will provide notice of price changes in advance.</li>

@@ -39,7 +39,7 @@ export function Pricing() {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10 space-y-1">
-        <p>14-day free trial · No credit card required · Cancel anytime</p>
+        <p>7-day free trial · No credit card required · Cancel anytime</p>
         <p>Subscriptions managed through the Apple App Store</p>
       </div>
     </SectionWrapper>

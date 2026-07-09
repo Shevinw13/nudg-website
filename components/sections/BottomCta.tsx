@@ -6,7 +6,7 @@ import { Icon } from "@/components/ui/Icon";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 
 const trustIndicators = [
-  "14-day free trial",
+  "7-day free trial",
   "No credit card required",
   "Cancel anytime",
 ];
