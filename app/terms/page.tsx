@@ -9,7 +9,7 @@ export default function TermsPage() {
       <h1 className="text-3xl font-bold text-navy mb-8">Terms of Service</h1>
       <div className="prose prose-gray max-w-none space-y-6 text-gray-700 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-navy [&_h2]:mt-8 [&_h3]:text-lg [&_h3]:font-medium [&_h3]:text-navy [&_h3]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-2">
         <p className="text-sm text-gray-500">
-          Effective Date: July 4, 2025
+          Effective Date: July 4, 2026
         </p>
 
         <p>
@@ -193,7 +193,7 @@ export default function TermsPage() {
 
         <h2>16. Governing Law</h2>
         <p>
-          These Terms are governed by and construed in accordance with the laws of the State of Delaware,
+          These Terms are governed by and construed in accordance with the laws of the State of Georgia,
           without regard to its conflict of law provisions.
         </p>
 
