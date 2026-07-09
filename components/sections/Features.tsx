@@ -9,7 +9,7 @@ const KEY_FEATURES = [
   {
     icon: "tap",
     title: "One-Tap Requests",
-    description: "Enter a phone number, tap send. No forms, no CRM, no integrations needed.",
+    description: "Enter a phone number, add a quick job note, tap send. When feedback comes in, you'll know exactly which job it's about.",
     screen: "/images/mockups/app-send-request.png",
     screenAlt: "Nudgli send review request screen with customer name, phone number, and job note fields",
   },
