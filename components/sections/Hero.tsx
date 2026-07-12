@@ -27,7 +27,7 @@ export function Hero() {
 
           {/* Social proof stat */}
           <AnimateOnScroll animation="fade-slide-up" delay={150}>
-            <div className="mt-6 flex justify-center lg:justify-start">
+            <div className="mt-6 flex justify-center">
               <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
                 <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
                 <span className="text-sm font-medium text-navy">85% average response rate via text</span>
