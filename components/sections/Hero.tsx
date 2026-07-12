@@ -10,7 +10,7 @@ export function Hero() {
     <SectionWrapper id="hero" background="white">
       <div className="flex flex-col lg:flex-row lg:items-center lg:gap-16">
         {/* Text content — left column on desktop */}
-        <div className="flex-1">
+        <div className="flex-1 text-center lg:text-left">
           <AnimateOnScroll animation="fade-slide-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy leading-[1.1] tracking-tight">
               Your best customers want to help.{" "}
@@ -19,7 +19,7 @@ export function Hero() {
           </AnimateOnScroll>
 
           <AnimateOnScroll animation="fade-slide-up" delay={100}>
-            <p className="mt-6 text-lg text-gray-500 max-w-lg leading-relaxed">
+            <p className="mt-6 text-lg text-gray-500 max-w-lg leading-relaxed mx-auto lg:mx-0">
               Turn happy customers into 5-star Google reviews. Turn unhappy
               customers into private conversations before they go public.
             </p>
@@ -27,7 +27,7 @@ export function Hero() {
 
           {/* Social proof stat */}
           <AnimateOnScroll animation="fade-slide-up" delay={150}>
-            <div className="mt-6 flex justify-center">
+            <div className="mt-6 flex justify-center lg:justify-start">
               <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
                 <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
                 <span className="text-sm font-medium text-navy">85% average response rate via text</span>
