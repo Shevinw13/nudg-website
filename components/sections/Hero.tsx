@@ -27,9 +27,11 @@ export function Hero() {
 
           {/* Social proof stat */}
           <AnimateOnScroll animation="fade-slide-up" delay={150}>
-            <div className="mt-6 inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
-              <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
-              <span className="text-sm font-medium text-navy">85% average response rate via text</span>
+            <div className="mt-6 flex justify-center lg:justify-start">
+              <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
+                <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
+                <span className="text-sm font-medium text-navy">85% average response rate via text</span>
+              </div>
             </div>
           </AnimateOnScroll>
 
@@ -75,8 +77,8 @@ export function Hero() {
           <AnimateOnScroll animation="slide-up" delay={200}>
             <div className="hover:scale-[1.02] transition-transform duration-300">
               <PhoneMockup
-                imageSrc="/images/mockups/app-home.png"
-                imageAlt="Nudgli app home screen showing review opportunities created, positive responses, needs follow-up, response rate, and recent activity"
+                imageSrc="/images/mockups/websitePic.png"
+                imageAlt="Nudgli app dashboard showing review stats, response rate, and recent activity"
                 className="w-[320px] md:w-[380px] lg:w-[400px]"
                 priority={true}
               />
