@@ -38,10 +38,10 @@ export function BottomCta() {
               method="POST"
               className="w-full max-w-md flex flex-col gap-3"
             >
-              {/* FormSubmit config */}
               <input type="hidden" name="_subject" value="New Beta Signup from nudgli.app" />
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="https://nudgli.app/#beta" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value="https://nudgli.app" />
               <input type="text" name="_honey" style={{ display: "none" }} />
 
               <input
