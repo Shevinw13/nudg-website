@@ -1,9 +1,6 @@
-"use client";
-
 import { SectionWrapper } from "@/components/layout/SectionWrapper";
 import { Icon } from "@/components/ui/Icon";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
-import { useState } from "react";
 
 const trustIndicators = [
   "7-day free trial",
@@ -12,8 +9,6 @@ const trustIndicators = [
 ];
 
 export function BottomCta() {
-  const [submitted, setSubmitted] = useState(false);
-
   return (
     <SectionWrapper id="beta" background="navy">
       <AnimateOnScroll animation="fade-slide-up">
@@ -38,15 +33,9 @@ export function BottomCta() {
           </p>
 
           {/* Beta Signup Form */}
-          {submitted ? (
-            <div className="bg-teal/20 border border-teal rounded-xl px-6 py-4">
-              <p className="text-white font-medium">You&apos;re on the list! We&apos;ll be in touch soon.</p>
-            </div>
-          ) : (
             <form
               action="https://formsubmit.co/support@nudgli.app"
               method="POST"
-              onSubmit={() => setSubmitted(true)}
               className="w-full max-w-md flex flex-col gap-3"
             >
               {/* FormSubmit config */}
@@ -83,7 +72,6 @@ export function BottomCta() {
                 Join the Beta
               </button>
             </form>
-          )}
 
           {/* Trust indicators */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-8">
