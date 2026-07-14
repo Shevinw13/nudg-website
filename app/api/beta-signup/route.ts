@@ -3,7 +3,13 @@ import { Resend } from 'resend';
 
 export async function POST(req: NextRequest) {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY);
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      console.error('RESEND_API_KEY is not set');
+      return NextResponse.json({ error: 'Server config error' }, { status: 500 });
+    }
+
+    const resend = new Resend(apiKey);
     const formData = await req.formData();
     const name = formData.get('name') as string;
     const email = formData.get('email') as string;
@@ -19,9 +25,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
     }
 
-    await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: 'Nudgli Beta <onboarding@resend.dev>',
-      to: 'support@nudgli.app',
+      to: 'shevinweinstein1@gmail.com',
       subject: `New Beta Signup: ${business}`,
       html: `
         <h2>New Beta Signup</h2>
@@ -31,6 +37,12 @@ export async function POST(req: NextRequest) {
       `,
     });
 
+    if (error) {
+      console.error('Resend error:', error);
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    console.log('Email sent:', data);
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Beta signup error:', error);
