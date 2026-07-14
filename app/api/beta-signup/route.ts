@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
 
     const { data, error } = await resend.emails.send({
       from: 'Nudgli Beta <onboarding@resend.dev>',
-      to: 'shevinweinstein1@gmail.com',
+      to: 'nudgli.app@gmail.com',
       subject: `New Beta Signup: ${business}`,
       html: `
         <h2>New Beta Signup</h2>
