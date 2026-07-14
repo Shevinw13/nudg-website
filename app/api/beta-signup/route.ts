@@ -1,7 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
+  const origin = req.headers.get('origin') || 'https://nudgli.app';
+
   try {
     const formData = await req.formData();
     const name = formData.get('name') as string;
@@ -11,28 +15,17 @@ export async function POST(req: NextRequest) {
     // Honeypot check
     const honey = formData.get('_honey') as string;
     if (honey) {
-      return NextResponse.redirect(new URL('/', req.url));
+      return NextResponse.redirect(`${origin}/`, { status: 303 });
     }
 
     if (!name || !email || !business) {
-      return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
+      return NextResponse.redirect(`${origin}/?signup=error#beta`, { status: 303 });
     }
 
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT) || 587,
-      secure: false,
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    });
-
-    await transporter.sendMail({
-      from: `"Nudgli Beta" <${process.env.SMTP_USER}>`,
+    await resend.emails.send({
+      from: 'Nudgli Beta <onboarding@resend.dev>',
       to: 'support@nudgli.app',
       subject: `New Beta Signup: ${business}`,
-      text: `New beta signup from nudgli.app\n\nName: ${name}\nEmail: ${email}\nBusiness: ${business}`,
       html: `
         <h2>New Beta Signup</h2>
         <p><strong>Name:</strong> ${name}</p>
@@ -41,9 +34,9 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    return NextResponse.redirect(new URL('/?signup=success#beta', req.url));
+    return NextResponse.redirect(`${origin}/?signup=success#beta`, { status: 303 });
   } catch (error) {
     console.error('Beta signup error:', error);
-    return NextResponse.redirect(new URL('/?signup=error#beta', req.url));
+    return NextResponse.redirect(`${origin}/?signup=error#beta`, { status: 303 });
   }
 }
