@@ -1,10 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req: NextRequest) {
   const origin = req.headers.get('origin') || 'https://nudgli.app';
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
     const formData = await req.formData();
