@@ -1,6 +1,9 @@
+"use client";
+
 import { SectionWrapper } from "@/components/layout/SectionWrapper";
 import { Icon } from "@/components/ui/Icon";
 import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
+import { useState } from "react";
 
 const trustIndicators = [
   "7-day free trial",
@@ -9,6 +12,31 @@ const trustIndicators = [
 ];
 
 export function BottomCta() {
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus("sending");
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const res = await fetch("/api/beta-signup", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (res.ok) {
+        setStatus("success");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  }
+
   return (
     <SectionWrapper id="beta" background="navy">
       <AnimateOnScroll animation="fade-slide-up">
@@ -33,9 +61,13 @@ export function BottomCta() {
           </p>
 
           {/* Beta Signup Form */}
+          {status === "success" ? (
+            <div className="bg-teal/20 border border-teal rounded-xl px-6 py-4">
+              <p className="text-white font-medium">You&apos;re on the list! We&apos;ll be in touch soon.</p>
+            </div>
+          ) : (
             <form
-              action="/api/beta-signup"
-              method="POST"
+              onSubmit={handleSubmit}
               className="w-full max-w-md flex flex-col gap-3"
             >
               <input type="text" name="_honey" style={{ display: "none" }} />
@@ -63,11 +95,16 @@ export function BottomCta() {
               />
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-teal text-white font-semibold rounded-lg hover:bg-teal/90 transition-colors mt-2"
+                disabled={status === "sending"}
+                className="w-full px-6 py-3 bg-teal text-white font-semibold rounded-lg hover:bg-teal/90 transition-colors mt-2 disabled:opacity-50"
               >
-                Join the Beta
+                {status === "sending" ? "Sending..." : "Join the Beta"}
               </button>
+              {status === "error" && (
+                <p className="text-red-400 text-sm mt-2">Something went wrong. Please try again.</p>
+              )}
             </form>
+          )}
 
           {/* Trust indicators */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-8">

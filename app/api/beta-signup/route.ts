@@ -2,10 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
 export async function POST(req: NextRequest) {
-  const origin = req.headers.get('origin') || 'https://nudgli.app';
-  const resend = new Resend(process.env.RESEND_API_KEY);
-
   try {
+    const resend = new Resend(process.env.RESEND_API_KEY);
     const formData = await req.formData();
     const name = formData.get('name') as string;
     const email = formData.get('email') as string;
@@ -14,11 +12,11 @@ export async function POST(req: NextRequest) {
     // Honeypot check
     const honey = formData.get('_honey') as string;
     if (honey) {
-      return NextResponse.redirect(`${origin}/`, { status: 303 });
+      return NextResponse.json({ success: true });
     }
 
     if (!name || !email || !business) {
-      return NextResponse.redirect(`${origin}/?signup=error#beta`, { status: 303 });
+      return NextResponse.json({ error: 'Missing fields' }, { status: 400 });
     }
 
     await resend.emails.send({
@@ -33,9 +31,9 @@ export async function POST(req: NextRequest) {
       `,
     });
 
-    return NextResponse.redirect(`${origin}/?signup=success#beta`, { status: 303 });
+    return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Beta signup error:', error);
-    return NextResponse.redirect(`${origin}/?signup=error#beta`, { status: 303 });
+    return NextResponse.json({ error: 'Failed to send' }, { status: 500 });
   }
 }
