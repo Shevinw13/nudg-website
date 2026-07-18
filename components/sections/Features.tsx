@@ -42,11 +42,11 @@ const KEY_FEATURES = [
     screenAlt: "Nudgli request history showing all past review requests with status indicators",
   },
   {
-    icon: "lock",
-    title: "Simple Settings",
-    description: "Manage your plan, edit your Google Review link, and control notifications. All in one place.",
+    icon: "star",
+    title: "Direct-to-Google Mode",
+    description: "Skip the rating flow and send your Google review link directly. One toggle in settings.",
     screen: "/images/mockups/app-settings.png",
-    screenAlt: "Nudgli settings screen showing business info, subscription, and notification preferences",
+    screenAlt: "Nudgli settings screen showing Direct-to-Google toggle",
   },
 ];
 
