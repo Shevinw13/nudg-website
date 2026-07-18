@@ -45,8 +45,8 @@ const KEY_FEATURES = [
     icon: "star",
     title: "Direct-to-Google Mode",
     description: "Skip the rating flow and send your Google review link directly. One toggle in settings.",
-    screen: "/images/mockups/app-settings.png",
-    screenAlt: "Nudgli settings screen showing Direct-to-Google toggle",
+    screen: "/images/mockups/app-direct-to-google.png",
+    screenAlt: "Nudgli send request screen showing Direct-to-Google toggle enabled with preview of message",
   },
 ];
 
