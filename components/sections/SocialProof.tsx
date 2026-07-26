@@ -77,6 +77,32 @@ export function SocialProof() {
 
   return (
     <SectionWrapper id="social-proof" background="gray">
+      {/* Research-backed stats */}
+      <AnimateOnScroll animation="fade-slide-up">
+        <div className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-navy text-center mb-4">
+            Why reviews matter
+          </h2>
+          <p className="text-gray-500 text-center mb-10 max-w-2xl mx-auto">
+            Research from Harvard shows that better ratings directly drive revenue, and responding to feedback lifts your overall score.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="bg-white rounded-2xl p-6 text-center shadow-sm border border-lightGray">
+              <p className="text-3xl md:text-4xl font-bold text-teal mb-2">5–9%</p>
+              <p className="text-sm text-gray-600">revenue increase per 1-star rating improvement</p>
+            </div>
+            <div className="bg-white rounded-2xl p-6 text-center shadow-sm border border-lightGray">
+              <p className="text-3xl md:text-4xl font-bold text-teal mb-2">3×</p>
+              <p className="text-sm text-gray-600">more reviews when businesses respond to feedback</p>
+            </div>
+            <div className="bg-white rounded-2xl p-6 text-center shadow-sm border border-lightGray">
+              <p className="text-3xl md:text-4xl font-bold text-teal mb-2">#1</p>
+              <p className="text-sm text-gray-600">trust signal for consumers choosing local businesses</p>
+            </div>
+          </div>
+        </div>
+      </AnimateOnScroll>
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
         {/* Industries subsection */}
         <AnimateOnScroll animation="fade-slide-up">
