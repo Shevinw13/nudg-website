@@ -3,6 +3,7 @@ import { HowItWorks } from '@/components/sections/HowItWorks';
 import { Features } from '@/components/sections/Features';
 import { SmsDemo } from '@/components/sections/SmsDemo';
 import { SocialProof } from '@/components/sections/SocialProof';
+import { Comparison } from '@/components/sections/Comparison';
 import { Pricing } from '@/components/sections/Pricing';
 import { BottomCta } from '@/components/sections/BottomCta';
 
@@ -14,6 +15,7 @@ export default function HomePage() {
       <SmsDemo />
       <Features />
       <SocialProof />
+      <Comparison />
       <Pricing />
       <BottomCta />
     </>
