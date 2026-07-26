@@ -34,7 +34,7 @@ export function Hero() {
               </div>
               <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
                 <Icon name="star" size={16} className="text-teal" ariaHidden />
-                <span className="text-sm font-medium text-navy">+1 star = 5–9% more revenue</span>
+                <span className="text-sm font-medium text-navy">Every star increase drives 5–9% more revenue</span>
               </div>
             </div>
           </AnimateOnScroll>
