@@ -52,7 +52,7 @@ export function Hero() {
                       ariaHidden
                     />
                   </div>
-                  <span className="font-semibold text-sm text-navy">
+                  <span className="font-semibold text-sm text-navy min-h-[2.5rem] flex items-center">
                     {prop.title}
                   </span>
                   <p className="text-xs text-gray-500 leading-relaxed">{prop.description}</p>
