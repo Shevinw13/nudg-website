@@ -29,12 +29,12 @@ export function Hero() {
           <AnimateOnScroll animation="fade-slide-up" delay={150}>
             <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
-                <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
-                <span className="text-sm font-medium text-navy">85% average response rate via text</span>
-              </div>
-              <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
                 <Icon name="star" size={16} className="text-teal" ariaHidden />
                 <span className="text-sm font-medium text-navy">Every star increase drives 5–9% more revenue</span>
+              </div>
+              <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2">
+                <Icon name="trending-up" size={16} className="text-teal" ariaHidden />
+                <span className="text-sm font-medium text-navy">85% average response rate via text</span>
               </div>
             </div>
           </AnimateOnScroll>

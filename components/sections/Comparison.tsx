@@ -8,7 +8,7 @@ const OLD_WAY = [
   "No system — you forget after every job",
   "Maybe 1–2 reviews per month",
   "Zero insight into what went wrong",
-  "$0/mo but costs you thousands in lost customers",
+  "Costs you thousands in lost customers",
 ];
 
 const NUDGLI_WAY = [
@@ -34,34 +34,13 @@ export function Comparison() {
       </AnimateOnScroll>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-        {/* The Old Way */}
-        <AnimateOnScroll animation="fade-slide-up" delay={100}>
-          <div className="rounded-2xl border border-gray-200 bg-gray-50 p-8 h-full">
-            <h3 className="text-xl font-bold text-gray-400 mb-2">The old way</h3>
-            <p className="text-2xl font-bold text-gray-400 mb-6">Free<span className="text-base font-normal">/mo</span></p>
-            <ul className="space-y-4">
-              {OLD_WAY.map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mt-0.5">
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#ef4444" strokeWidth="3" strokeLinecap="round">
-                      <path d="M18 6L6 18M6 6l12 12" />
-                    </svg>
-                  </span>
-                  <span className="text-sm text-gray-600">{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </AnimateOnScroll>
-
         {/* The Nudgli Way */}
-        <AnimateOnScroll animation="fade-slide-up" delay={200}>
+        <AnimateOnScroll animation="fade-slide-up" delay={100}>
           <div className="rounded-2xl border-2 border-teal bg-gradient-to-b from-mint to-white p-8 h-full relative">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-teal text-white text-xs font-semibold px-3 py-1 rounded-full">
               Recommended
             </div>
-            <h3 className="text-xl font-bold text-navy mb-2">The Nudgli way</h3>
-            <p className="text-2xl font-bold text-navy mb-6">$9.99<span className="text-base font-normal text-gray-500">/mo</span></p>
+            <h3 className="text-xl font-bold text-navy mb-6">The Nudgli way</h3>
             <ul className="space-y-4">
               {NUDGLI_WAY.map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
@@ -71,6 +50,25 @@ export function Comparison() {
                     </svg>
                   </span>
                   <span className="text-sm text-navy">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </AnimateOnScroll>
+
+        {/* The Old Way */}
+        <AnimateOnScroll animation="fade-slide-up" delay={200}>
+          <div className="rounded-2xl border border-gray-200 bg-gray-50 p-8 h-full">
+            <h3 className="text-xl font-bold text-gray-400 mb-6">The old way</h3>
+            <ul className="space-y-4">
+              {OLD_WAY.map((item, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <span className="flex-shrink-0 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center mt-0.5">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#ef4444" strokeWidth="3" strokeLinecap="round">
+                      <path d="M18 6L6 18M6 6l12 12" />
+                    </svg>
+                  </span>
+                  <span className="text-sm text-gray-600">{item}</span>
                 </li>
               ))}
             </ul>
