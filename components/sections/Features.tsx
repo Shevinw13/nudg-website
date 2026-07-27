@@ -44,7 +44,7 @@ const KEY_FEATURES = [
   {
     icon: "star",
     title: "Three Send Modes",
-    description: "Smart Review (rating → Google), Quality Check (rating only, internal), or Direct Google Review. Pick the right one for the moment.",
+    description: "Start with Smart Review to build your Google reputation. Switch to Quality Check once you're there — keep measuring every experience without asking for another review. Or go Direct Google when you just need the link.",
     screen: "/images/mockups/app-send-modes.png",
     screenAlt: "Nudgli send request screen showing three send mode options: Smart Review, Quality Check, and Direct Google Review",
   },
@@ -60,10 +60,10 @@ export function Features() {
       <AnimateOnScroll animation="fade-slide-up">
         <div className="bg-mint rounded-2xl p-6 md:p-8 text-center max-w-3xl mx-auto mb-10">
           <p className="text-xl md:text-2xl font-bold text-navy">
-            No CRM. No integrations. No complicated setup.
+            Not just a review tool. Your ongoing feedback engine.
           </p>
           <p className="mt-2 text-sm text-gray-500">
-            If you can send a text message, you can use Nudgli.
+            Build your Google reputation first, then keep measuring every customer experience — without asking for another review. Nudgli grows with your business.
           </p>
         </div>
       </AnimateOnScroll>

@@ -58,7 +58,7 @@ export const FEATURES: Feature[] = [
     id: 'send-modes',
     icon: 'star',
     title: 'Three Send Modes',
-    description: 'Smart Review for ratings + Google, Quality Check for internal monitoring, or Direct Google Review to skip the rating entirely.',
+    description: 'Smart Review to build your Google reputation. Quality Check to keep measuring satisfaction once you\'re there. Direct Google when you just need the link.',
   },
   {
     id: 'dashboard',
