@@ -9,9 +9,9 @@ const KEY_FEATURES = [
   {
     icon: "tap",
     title: "One-Tap Requests",
-    description: "Enter a phone number, add a quick job note, tap send. When feedback comes in, you'll know exactly which job it's about.",
+    description: "Enter a phone number, add a quick job note, tap send. See a live preview of the personalized message before it goes out.",
     screen: "/images/mockups/app-send-request.png",
-    screenAlt: "Nudgli send review request screen with customer name, phone number, and job note fields",
+    screenAlt: "Nudgli send review request screen with customer name, phone number, job note, and live message preview",
   },
   {
     icon: "inbox",
@@ -43,10 +43,10 @@ const KEY_FEATURES = [
   },
   {
     icon: "star",
-    title: "Direct-to-Google Mode",
-    description: "Skip the rating flow and send your Google review link directly. One toggle in settings.",
+    title: "Three Send Modes",
+    description: "Smart Review (rating → Google), Quality Check (rating only, internal), or Direct Google Review. Pick the right one for the moment.",
     screen: "/images/mockups/app-direct-to-google.png",
-    screenAlt: "Nudgli send request screen showing Direct-to-Google toggle enabled with preview of message",
+    screenAlt: "Nudgli send request screen showing three send mode options: Smart Review, Quality Check, and Direct Google Review",
   },
 ];
 

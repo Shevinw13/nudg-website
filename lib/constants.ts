@@ -46,13 +46,19 @@ export const FEATURES: Feature[] = [
     id: 'one-tap',
     icon: 'tap',
     title: 'One-Tap SMS Requests',
-    description: "Just enter a phone number. Optional customer name and service type. That's it.",
+    description: "Enter a phone number. Messages are personalized to your business type with a live preview before sending.",
   },
   {
     id: 'smart-routing',
     icon: 'route',
     title: 'Smart Routing',
     description: 'Positive ratings go to Google Reviews. Negative ratings go to your private feedback inbox. Automatically.',
+  },
+  {
+    id: 'send-modes',
+    icon: 'star',
+    title: 'Three Send Modes',
+    description: 'Smart Review for ratings + Google, Quality Check for internal monitoring, or Direct Google Review to skip the rating entirely.',
   },
   {
     id: 'dashboard',
