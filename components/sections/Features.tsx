@@ -45,7 +45,7 @@ const KEY_FEATURES = [
     icon: "star",
     title: "Three Send Modes",
     description: "Smart Review (rating → Google), Quality Check (rating only, internal), or Direct Google Review. Pick the right one for the moment.",
-    screen: "/images/mockups/app-direct-to-google.png",
+    screen: "/images/mockups/app-send-modes.png",
     screenAlt: "Nudgli send request screen showing three send mode options: Smart Review, Quality Check, and Direct Google Review",
   },
 ];
