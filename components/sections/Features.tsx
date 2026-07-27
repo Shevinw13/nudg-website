@@ -74,7 +74,7 @@ export function Features() {
             Everything You Need
           </h2>
           <p className="mt-3 text-lg text-gray-500 max-w-xl mx-auto">
-            Powerful where it counts. Simple everywhere else.
+            Completely mobile. No CRM. No integrations. No complicated setup. If you can send a text, you can use Nudgli.
           </p>
         </AnimateOnScroll>
       </div>
