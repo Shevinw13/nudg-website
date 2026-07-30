@@ -49,9 +49,17 @@ export default function ConsentPage() {
         <h2>Message Details</h2>
         <ul>
           <li><strong>Message frequency:</strong> One (1) initial message per review request. Up to two (2) follow-up messages if the customer responds with a rating.</li>
-          <li><strong>Message content:</strong> A personalized text asking the customer to rate their experience from 1 to 5, followed by either a Google Review link (for positive ratings) or a thank-you message (for negative ratings).</li>
-          <li><strong>Sender:</strong> Messages are sent from a Nudgli toll-free number on behalf of the business.</li>
+          <li><strong>Message content:</strong> A personalized text asking the customer to rate their experience from 1 to 5, followed by either a Google Review link (for positive ratings) or a thank-you message (for negative ratings). Each message includes &quot;Reply STOP to opt out&quot; on a separate line.</li>
+          <li><strong>Sender:</strong> Messages are sent from a dedicated local phone number assigned to the business by Nudgli.</li>
         </ul>
+
+        <h2>Business Owner Verification</h2>
+        <p>
+          Before a business can send messages through Nudgli, the business owner must complete a
+          one-time verification by replying &quot;YES&quot; to a text message from Nudgli&apos;s
+          registration number. This confirms the business owner&apos;s identity and activates their
+          dedicated phone number for SMS messaging compliance.
+        </p>
 
         <h2>Opt-Out Process</h2>
         <ul>
