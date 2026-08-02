@@ -56,9 +56,9 @@ export default function ConsentPage() {
         <h2>Business Owner Verification</h2>
         <p>
           Before a business can send messages through Nudgli, the business owner must complete a
-          one-time verification by replying &quot;YES&quot; to a text message from Nudgli&apos;s
-          registration number. This confirms the business owner&apos;s identity and activates their
-          dedicated phone number for SMS messaging compliance.
+          one-time verification by replying &quot;YES&quot; to a text message from their dedicated
+          Nudgli phone number. This confirms the business owner&apos;s identity and activates their
+          messaging capability.
         </p>
 
         <h2>Opt-Out Process</h2>
