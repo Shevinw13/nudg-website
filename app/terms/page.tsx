@@ -44,12 +44,18 @@ export default function TermsPage() {
           Nudgli is an SMS-based review collection platform for service businesses. The Service allows you to:
         </p>
         <ul>
-          <li>Send SMS review requests to your customers.</li>
+          <li>Send SMS review requests to your customers from a dedicated phone number assigned to your business.</li>
           <li>Automatically route customer responses based on their satisfaction rating.</li>
           <li>Direct happy customers (4-5 star ratings) to your Google Business Profile to leave a public review.</li>
           <li>Receive private feedback from unhappy customers (1-3 star ratings) in your Nudgli inbox.</li>
           <li>Track review activity, response rates, and business growth through a dashboard.</li>
         </ul>
+        <p>
+          As part of onboarding, Nudgli provisions a dedicated phone number for your business and registers
+          it for SMS messaging compliance. Messaging capabilities are activated once your registration is
+          approved, which typically takes a few minutes to a few hours. You may continue using all other
+          features of the app while registration is pending.
+        </p>
 
         <h2>4. Subscriptions and Payment</h2>
         <ul>
@@ -111,7 +117,7 @@ export default function TermsPage() {
         <ul>
           <li><strong>Apple App Store:</strong> For subscription billing and app distribution. Subject to Apple&apos;s Terms of Service.</li>
           <li><strong>Google Business Profile:</strong> For directing customers to leave reviews. Subject to Google&apos;s Terms of Service.</li>
-          <li><strong>SMS providers:</strong> For message delivery. We use commercially reasonable efforts to ensure delivery but cannot guarantee it.</li>
+          <li><strong>Twilio:</strong> For phone number provisioning, SMS registration, and message delivery. Your business information is shared with Twilio for compliance registration. We use commercially reasonable efforts to ensure delivery but cannot guarantee it.</li>
         </ul>
         <p>
           We are not responsible for the availability, accuracy, or practices of third-party services.
