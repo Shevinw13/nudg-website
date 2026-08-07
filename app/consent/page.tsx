@@ -32,23 +32,24 @@ export default function ConsentPage() {
         <h3>Opt-In Process (Step by Step)</h3>
         <ol>
           <li>The business owner downloads the Nudgli app from the Apple App Store.</li>
-          <li>They create an account by agreeing to the <a href="/terms" className="text-teal hover:underline">Terms of Service</a> and <a href="/privacy" className="text-teal hover:underline">Privacy Policy</a>. <strong>No phone number or SMS consent is required at this step.</strong></li>
-          <li>Separately, the business owner navigates to the optional &quot;Activate Messaging&quot; screen to enable SMS features for their business.</li>
-          <li>On that screen, they provide their <strong>mobile phone number</strong>. The screen displays the following consent language: <em>&quot;By providing your phone number, you agree to receive SMS messages from Nudgli for account verification and notifications. Msg &amp; data rates may apply. Reply STOP to opt out.&quot;</em></li>
-          <li>After submitting, Nudgli sends <strong>one verification message</strong> asking the user to reply YES to confirm their identity.</li>
+          <li>On the account creation screen, they enter their business name, email, and password.</li>
+          <li>At the bottom of the signup screen, they agree to the <a href="/terms" className="text-teal hover:underline">Terms of Service</a> and <a href="/privacy" className="text-teal hover:underline">Privacy Policy</a> (required for account creation).</li>
+          <li>A <strong>separate, optional checkbox</strong> (unchecked by default) reads: <em>&quot;I agree to receive SMS messages from Nudgli for account verification and notifications. Msg &amp; data rates may apply. Reply STOP to opt out.&quot;</em></li>
+          <li>The user must actively check this box to consent to SMS messaging. <strong>SMS consent is not required to create an account.</strong></li>
+          <li>If they consent and later provide their phone number during business registration, Nudgli sends <strong>one verification message</strong> asking the user to reply YES to confirm their identity.</li>
           <li><strong>No further messages are sent unless the user replies YES.</strong></li>
           <li>Once confirmed, the business owner receives only operational messages (approval notifications, account alerts).</li>
         </ol>
 
         <h3>Screenshot of Opt-In Screen</h3>
         <p>
-          The following screenshot shows the business registration screen where users
-          optionally provide their phone number and consent to SMS messaging:
+          The following screenshot shows the account creation screen with the optional SMS
+          consent checkbox (unchecked by default, clearly separate from account creation):
         </p>
         <div className="my-4 rounded-xl border border-gray-200 overflow-hidden bg-gray-50 p-4 flex justify-center">
           <img
-            src="/images/mockups/app-business-registration.png"
-            alt="Nudgli app business registration screen showing phone number field with SMS consent text: By providing your phone number, you agree to receive SMS messages from Nudgli for account verification and notifications."
+            src="/images/mockups/app-sms-consent.png"
+            alt="Nudgli app signup screen showing an optional unchecked checkbox with SMS consent text: I agree to receive SMS messages from Nudgli for account verification and notifications. Msg and data rates may apply. Reply STOP to opt out."
             className="max-w-[300px] w-full rounded-lg shadow-sm"
           />
         </div>
@@ -64,10 +65,11 @@ export default function ConsentPage() {
 
         <h3>Opt-In Type</h3>
         <p>
-          <strong>Web form (in-app).</strong> The business owner provides their phone number
-          on a separate, optional screen within the Nudgli app. SMS consent is clearly presented
-          on this screen and is not required for account creation. The user then confirms via
-          text by replying YES to the verification message (double opt-in).
+          <strong>Web form (in-app checkbox).</strong> The business owner checks an optional SMS
+          consent checkbox on the account creation screen. This checkbox is unchecked by default
+          and is not required to create an account. After providing their phone number during
+          business registration, the user confirms via text by replying YES to the verification
+          message (double opt-in).
         </p>
 
         <h3>Opt-In Keywords</h3>
