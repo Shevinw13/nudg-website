@@ -1,33 +1,88 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'SMS Consent Policy - Nudgli',
-  description: 'Nudgli SMS opt-in consent policy and verbal consent script for review request messages.',
+  title: 'SMS Consent & Opt-In Process - Nudgli',
+  description: 'How Nudgli collects SMS consent from business owners and their customers. Opt-in process, verification flow, and compliance details.',
 };
 
 export default function ConsentPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-8 py-16">
-      <h1 className="text-3xl font-bold text-navy mb-8">SMS Consent Policy</h1>
-      <div className="prose prose-gray max-w-none space-y-6 text-gray-700 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-navy [&_h2]:mt-8 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2">
+      <h1 className="text-3xl font-bold text-navy mb-8">SMS Consent &amp; Opt-In Process</h1>
+      <div className="prose prose-gray max-w-none space-y-6 text-gray-700 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-navy [&_h2]:mt-8 [&_h3]:text-lg [&_h3]:font-medium [&_h3]:text-navy [&_h3]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-2">
         <p className="text-sm text-gray-500">
           Effective Date: July 4, 2026
         </p>
 
-        <h2>Overview</h2>
+        <h2>How Nudgli Collects SMS Consent</h2>
         <p>
-          Nudgli is an SMS-based review collection platform. Business owners using Nudgli send review
-          request text messages to their customers after completing a service. All messages are sent
-          only with the customer&apos;s prior verbal consent.
+          Nudgli sends SMS messages only to users who have explicitly opted in through our
+          in-app registration process. We never send unsolicited messages. Below is the
+          complete opt-in flow for both business owners (platform messages) and their
+          customers (review request messages).
         </p>
 
-        <h2>Opt-In Type</h2>
+        {/* ===== SECTION 1: Business Owner Opt-In (Toll-Free) ===== */}
+        <h2>1. Business Owner Opt-In (Account Verification)</h2>
+        <p>
+          Nudgli sends operational SMS messages (account verification and status notifications)
+          only to business owners who have created a Nudgli account through the iOS app.
+        </p>
+
+        <h3>Opt-In Process (Step by Step)</h3>
+        <ol>
+          <li>The business owner downloads the Nudgli app from the Apple App Store.</li>
+          <li>During account registration, they provide their <strong>mobile phone number</strong> in a dedicated &quot;Business Details&quot; step.</li>
+          <li>Before submitting, they agree to our <a href="/terms" className="text-teal hover:underline">Terms of Service</a> and <a href="/privacy" className="text-teal hover:underline">Privacy Policy</a>, which clearly state: <em>&quot;By creating an account and providing your phone number, you consent to receive SMS messages from Nudgli for account verification and operational notifications. Message and data rates may apply. Reply STOP to opt out at any time.&quot;</em></li>
+          <li>After registration, Nudgli sends <strong>one verification message</strong> asking the user to reply YES to confirm their identity.</li>
+          <li><strong>No further messages are sent unless the user replies YES.</strong></li>
+          <li>Once confirmed, the business owner receives only operational messages (approval notifications, account alerts).</li>
+        </ol>
+
+        <h3>Sample Verification Message</h3>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 my-4">
+          <p className="font-mono text-sm text-gray-700">
+            Nudgli: To activate SMS messaging for your business, please reply YES to confirm
+            you are the authorized owner. This is a one-time verification. Reply HELP for
+            assistance or STOP to opt out. Msg &amp; data rates may apply.
+          </p>
+        </div>
+
+        <h3>Opt-In Type</h3>
+        <p>
+          <strong>Via text (double opt-in).</strong> The business owner provides their phone number
+          in the app (first opt-in), then must reply YES to the verification message (second opt-in)
+          before any further messages are sent.
+        </p>
+
+        <h3>Opt-In Keywords</h3>
+        <p>
+          <strong>START</strong>, <strong>YES</strong> — to opt in or re-subscribe.<br />
+          <strong>STOP</strong> — to immediately opt out of all messages.<br />
+          <strong>HELP</strong> — to receive support information.
+        </p>
+
+        <h3>Message Frequency</h3>
+        <ul>
+          <li>One (1) verification message during setup.</li>
+          <li>Occasional operational notifications (registration approved, account alerts). No more than 5 messages per month.</li>
+          <li>No marketing messages are sent to this number.</li>
+        </ul>
+
+        {/* ===== SECTION 2: Customer Opt-In (Review Requests) ===== */}
+        <h2>2. Customer Opt-In (Review Requests)</h2>
+        <p>
+          When a business owner uses Nudgli to send a review request to their customer,
+          the customer must have provided prior verbal consent.
+        </p>
+
+        <h3>Opt-In Type</h3>
         <p>
           <strong>Verbal consent.</strong> The business owner obtains verbal consent from the customer
           in person at the time of service, before any SMS message is sent through Nudgli.
         </p>
 
-        <h2>Verbal Consent Script</h2>
+        <h3>Verbal Consent Script</h3>
         <p>
           Business owners using Nudgli are instructed to inform their customer with the following
           script (or substantially similar language) before sending a review request:
@@ -37,8 +92,7 @@ export default function ConsentPage() {
             &ldquo;We&apos;d like to send you a quick text to get your feedback on today&apos;s service.
             You&apos;ll receive one message asking you to rate your experience from 1 to 5.
             Message and data rates may apply. You can reply STOP at any time to opt out, or
-            HELP for assistance. Our Terms of Service are at nudgli.app/terms and our Privacy
-            Policy is at nudgli.app/privacy. Is that okay?&rdquo;
+            HELP for assistance. Is that okay?&rdquo;
           </p>
         </div>
         <p>
@@ -46,56 +100,73 @@ export default function ConsentPage() {
           phone number to the business owner.
         </p>
 
-        <h2>Message Details</h2>
+        <h3>In-App Consent Reminder</h3>
+        <p>
+          Before sending each review request, the Nudgli app displays a consent disclaimer
+          below the Send button: <em>&quot;By sending, you confirm this customer has consented
+          to receive SMS.&quot;</em> This serves as a reminder to the business owner of their
+          obligation to obtain consent.
+        </p>
+
+        <h3>Sample Review Request Message</h3>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 my-4">
+          <p className="font-mono text-sm text-gray-700">
+            Hi Jane! Thanks for choosing Mitchell Plumbing today. How would you rate your
+            experience? Reply with a number from 1 to 5.<br /><br />
+            Reply STOP to opt out.
+          </p>
+        </div>
+
+        <h3>Message Details</h3>
         <ul>
           <li><strong>Message frequency:</strong> One (1) initial message per review request. Up to two (2) follow-up messages if the customer responds with a rating.</li>
-          <li><strong>Message content:</strong> A personalized text asking the customer to rate their experience from 1 to 5, followed by either a Google Review link (for positive ratings) or a thank-you message (for negative ratings). Each message includes &quot;Reply STOP to opt out&quot; on a separate line.</li>
           <li><strong>Sender:</strong> Messages are sent from a dedicated local phone number assigned to the business by Nudgli.</li>
+          <li><strong>No marketing:</strong> Messages are transactional (feedback requests only). No promotional content is sent.</li>
         </ul>
 
-        <h2>Business Owner Verification</h2>
-        <p>
-          Before a business can send messages through Nudgli, the business owner must complete a
-          one-time verification by replying &quot;YES&quot; to a text message from their dedicated
-          Nudgli phone number. This confirms the business owner&apos;s identity and activates their
-          messaging capability.
-        </p>
-
-        <h2>Opt-Out Process</h2>
+        {/* ===== Opt-Out ===== */}
+        <h2>3. Opt-Out Process</h2>
+        <p>Both business owners and customers can opt out at any time:</p>
         <ul>
-          <li>Customers can reply <strong>STOP</strong> at any time to immediately opt out of all future messages.</li>
-          <li>Upon receiving STOP, the system confirms the opt-out and no further messages are sent to that number.</li>
-          <li>Customers can reply <strong>START</strong> or <strong>UNSTOP</strong> to re-subscribe at any time.</li>
-          <li>Customers can reply <strong>HELP</strong> to receive support information.</li>
+          <li>Reply <strong>STOP</strong> to immediately opt out of all future messages.</li>
+          <li>Upon receiving STOP, the system sends a confirmation and no further messages are sent to that number.</li>
+          <li>Reply <strong>START</strong> or <strong>UNSTOP</strong> to re-subscribe at any time.</li>
+          <li>Reply <strong>HELP</strong> to receive support information and contact details.</li>
         </ul>
 
-        <h2>Conversation Expiry</h2>
-        <p>
-          If a customer does not respond within 72 hours, the conversation is automatically closed.
-          No further messages are sent.
-        </p>
+        <h3>Help Message</h3>
+        <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 my-4">
+          <p className="font-mono text-sm text-gray-700">
+            Nudgli: For support, visit https://nudgli.app or email support@nudgli.app.
+            Reply STOP to opt out of messages.
+          </p>
+        </div>
 
-        <h2>Data Handling</h2>
+        {/* ===== Data & Compliance ===== */}
+        <h2>4. Data Handling &amp; Compliance</h2>
         <ul>
-          <li>Customer phone numbers are encrypted using AES-256 and stored securely.</li>
-          <li>Phone numbers are used solely for the purpose of sending the review request.</li>
-          <li>Customer data is never sold or shared with third parties for marketing purposes.</li>
-          <li>Customers may request deletion of their data at any time.</li>
+          <li>Phone numbers are encrypted using AES-256 and stored securely.</li>
+          <li>Phone numbers are used solely for the stated purpose (verification or review requests).</li>
+          <li><strong>We do not sell, share, or rent phone numbers or opt-in data to third parties.</strong></li>
+          <li>Users may request deletion of their data at any time.</li>
+          <li>Conversation data expires after 72 hours of inactivity.</li>
         </ul>
-
-        <h2>Compliance</h2>
         <p>
-          Nudgli complies with the Telephone Consumer Protection Act (TCPA), the CAN-SPAM Act,
-          and all applicable federal, state, and local regulations governing SMS communications.
-          Business owners using Nudgli agree to our{' '}
-          <a href="/terms" className="text-teal hover:underline">Terms of Service</a> which
-          require them to obtain proper consent before sending messages.
+          Nudgli complies with the Telephone Consumer Protection Act (TCPA), CTIA guidelines,
+          the CAN-SPAM Act, and all applicable federal, state, and local regulations governing
+          SMS communications.
         </p>
 
-        <h2>Contact</h2>
+        <h2>5. Contact</h2>
         <p>
-          For questions about this consent policy, contact us at:{' '}
+          For questions about this consent policy or to exercise your opt-out rights, contact us at:{' '}
           <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a>
+        </p>
+        <p>
+          Nudgli LLC<br />
+          Website: <a href="https://nudgli.app" className="text-teal hover:underline">https://nudgli.app</a><br />
+          Terms of Service: <a href="/terms" className="text-teal hover:underline">https://nudgli.app/terms</a><br />
+          Privacy Policy: <a href="/privacy" className="text-teal hover:underline">https://nudgli.app/privacy</a>
         </p>
       </div>
     </div>
