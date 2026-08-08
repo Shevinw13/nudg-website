@@ -164,14 +164,14 @@ export const VALUE_PROPOSITIONS: ValueProposition[] = [
     description: 'Happy customers are guided straight to Google.',
   },
   {
-    icon: 'route',
-    title: 'Smart Routing',
-    description: 'Positive ratings go public. Negative ones stay private.',
+    icon: 'shield',
+    title: 'Review Shield',
+    description: 'AI detects policy violations and helps you get unfair reviews removed.',
   },
   {
     icon: 'trending-up',
     title: 'Grow Your Business',
-    description: 'More reviews mean better visibility and more calls.',
+    description: 'More reviews, higher ratings, more calls.',
   },
 ];
 

@@ -20,8 +20,8 @@ export function Hero() {
 
           <AnimateOnScroll animation="fade-slide-up" delay={100}>
             <p className="mt-6 text-lg text-gray-500 max-w-lg leading-relaxed mx-auto lg:mx-0">
-              Turn happy customers into 5-star Google reviews. Turn unhappy
-              customers into private conversations before they go public.
+              Collect 5-star Google reviews with one text. Catch bad reviews
+              that violate Google&apos;s policies and get them removed with AI.
             </p>
           </AnimateOnScroll>
 
@@ -81,8 +81,8 @@ export function Hero() {
           <AnimateOnScroll animation="slide-up" delay={200}>
             <div className="hover:scale-[1.02] transition-transform duration-300">
               <PhoneMockup
-                imageSrc="/images/mockups/websitePic.png"
-                imageAlt="Nudgli app dashboard showing review stats, response rate, and recent activity"
+                imageSrc="/images/mockups/app-review-shield.png"
+                imageAlt="Nudgli Review Shield showing AI-powered review monitoring with policy violations detected"
                 className="w-[320px] md:w-[380px] lg:w-[400px]"
                 priority={true}
               />
