@@ -1,6 +1,7 @@
 import { Hero } from '@/components/sections/Hero';
 import { HowItWorks } from '@/components/sections/HowItWorks';
 import { Features } from '@/components/sections/Features';
+import { ReviewShield } from '@/components/sections/ReviewShield';
 import { SmsDemo } from '@/components/sections/SmsDemo';
 import { SocialProof } from '@/components/sections/SocialProof';
 import { Comparison } from '@/components/sections/Comparison';
@@ -14,6 +15,7 @@ export default function HomePage() {
       <HowItWorks />
       <SmsDemo />
       <Features />
+      <ReviewShield />
       <SocialProof />
       <Comparison />
       <Pricing />
