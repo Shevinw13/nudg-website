@@ -76,7 +76,7 @@ export function SocialProof() {
   };
 
   return (
-    <SectionWrapper id="social-proof" background="gray">
+    <SectionWrapper id="social-proof" background="white">
       {/* Research-backed stats */}
       <AnimateOnScroll animation="fade-slide-up">
         <div className="mb-16">
