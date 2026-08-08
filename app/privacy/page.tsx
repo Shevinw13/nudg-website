@@ -28,7 +28,7 @@ export default function PrivacyPage() {
         <h3>Information You Provide</h3>
         <ul>
           <li><strong>Account information:</strong> Name, email address, phone number, business name, and Google Business Profile link when you register.</li>
-          <li><strong>Business details:</strong> Business phone number (mobile), street address, city, state, zip code, website (optional), and EIN (optional) collected during onboarding for SMS registration purposes.</li>
+          <li><strong>Business details:</strong> Business phone number (mobile), street address, city, state, zip code, and website (optional) collected during onboarding for SMS registration purposes.</li>
           <li><strong>Customer data:</strong> Phone numbers and optional names of your customers that you enter to send review requests.</li>
           <li><strong>Payment information:</strong> Subscription purchases are processed by Apple through the App Store. We do not collect or store credit card numbers or billing details.</li>
           <li><strong>Communications:</strong> Messages you send to our support team.</li>
@@ -65,7 +65,7 @@ export default function PrivacyPage() {
         <h2>3. How We Share Your Information</h2>
         <p>We do not sell your personal information or your customers&apos; personal information. We share data only in the following circumstances:</p>
         <ul>
-          <li><strong>SMS service providers (Twilio):</strong> We share customer phone numbers with Twilio solely to deliver SMS messages on your behalf. We also share your business information (name, address, phone, and EIN if provided) with Twilio to register your dedicated business phone number for SMS messaging compliance.</li>
+          <li><strong>SMS service providers (Twilio):</strong> We share customer phone numbers with Twilio solely to deliver SMS messages on your behalf. We also share your business information (name, address, and phone) with Twilio to register your dedicated business phone number for SMS messaging compliance.</li>
           <li><strong>Cloud infrastructure:</strong> Your data is stored on secure cloud servers provided by our hosting provider.</li>
           <li><strong>Analytics providers:</strong> We use analytics services to understand how the Service is used. These providers receive anonymized or aggregated data.</li>
           <li><strong>Legal requirements:</strong> We may disclose information if required by law, court order, or governmental regulation, or if we believe disclosure is necessary to protect our rights, your safety, or the safety of others.</li>
