@@ -12,7 +12,7 @@ export function Pricing() {
             Simple, Transparent Pricing
           </h2>
           <p className="text-lg text-gray-600">
-            All features included in every plan. Pick the volume that fits.
+            Start free for 7 days. Upgrade as you grow.
           </p>
         </AnimateOnScroll>
       </div>
@@ -33,6 +33,7 @@ export function Pricing() {
               description={tier.description}
               highlighted={tier.highlighted}
               badge={tier.badge}
+              features={tier.features}
             />
           </AnimateOnScroll>
         ))}

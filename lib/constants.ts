@@ -118,6 +118,7 @@ export const PRICING_TIERS: PricingTier[] = [
     smsQuota: '50 SMS/month',
     description: 'Solo operators just getting started',
     highlighted: false,
+    features: ['Smart Review & Quality Check modes', 'Feedback inbox', 'Real-time dashboard', 'Push notifications'],
   },
   {
     id: 'growth',
@@ -127,6 +128,7 @@ export const PRICING_TIERS: PricingTier[] = [
     description: 'Growing businesses with steady clients',
     highlighted: true,
     badge: 'Most Popular',
+    features: ['Everything in Starter', 'Review Shield (AI monitoring)', 'Violation detection & reporting', 'AI response suggestions', 'Manual review analysis'],
   },
   {
     id: 'pro',
@@ -135,6 +137,7 @@ export const PRICING_TIERS: PricingTier[] = [
     smsQuota: '1,000 SMS/month',
     description: 'High-volume service businesses',
     highlighted: false,
+    features: ['Everything in Growth', 'Priority support', 'Higher SMS volume'],
   },
 ];
 

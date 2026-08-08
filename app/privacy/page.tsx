@@ -46,6 +46,7 @@ export default function PrivacyPage() {
         <ul>
           <li><strong>SMS delivery data:</strong> Delivery status and response data from our SMS service provider (Twilio) for messages sent through the Service.</li>
           <li><strong>SMS registration data:</strong> Registration status and phone number assignment from Twilio when provisioning your dedicated business phone number.</li>
+          <li><strong>Google Reviews data:</strong> Publicly available review data (reviewer display name, star rating, review text, and review date) pulled from your Google Business Profile via the Google Places API. This data is stored for 30 days and then automatically deleted.</li>
           <li><strong>App Store data:</strong> Subscription status from Apple.</li>
         </ul>
 
@@ -66,6 +67,8 @@ export default function PrivacyPage() {
         <p>We do not sell your personal information or your customers&apos; personal information. We share data only in the following circumstances:</p>
         <ul>
           <li><strong>SMS service providers (Twilio):</strong> We share customer phone numbers with Twilio solely to deliver SMS messages on your behalf. We also share your business information (name, address, and phone) with Twilio to register your dedicated business phone number for SMS messaging compliance.</li>
+          <li><strong>AI analysis provider (Anthropic):</strong> When using Review Shield, we send publicly available Google review data (reviewer display name, star rating, and review text) to Anthropic&apos;s Claude AI for policy violation analysis and response generation. No business owner personal information, phone numbers, or email addresses are shared with Anthropic.</li>
+          <li><strong>Google Places API:</strong> We access publicly available review data from your Google Business Profile to power the Review Shield feature. No Google account credentials are required — only your public Google Review URL.</li>
           <li><strong>Cloud infrastructure:</strong> Your data is stored on secure cloud servers provided by our hosting provider.</li>
           <li><strong>Analytics providers:</strong> We use analytics services to understand how the Service is used. These providers receive anonymized or aggregated data.</li>
           <li><strong>Legal requirements:</strong> We may disclose information if required by law, court order, or governmental regulation, or if we believe disclosure is necessary to protect our rights, your safety, or the safety of others.</li>
@@ -93,6 +96,7 @@ export default function PrivacyPage() {
           <li><strong>Account data:</strong> Retained for as long as your account is active. Upon account deletion, we remove your personal information within 30 days.</li>
           <li><strong>Customer phone numbers:</strong> Retained only for the duration needed to process the review request and any follow-up. Conversation data expires after 72 hours of inactivity.</li>
           <li><strong>SMS logs:</strong> Retained for up to 12 months for analytics and dispute resolution, then automatically deleted.</li>
+          <li><strong>Google review data:</strong> Retained for 30 days, then automatically deleted. This includes reviewer names, ratings, review text, and analysis results from Review Shield.</li>
           <li><strong>Aggregated analytics:</strong> May be retained indefinitely in de-identified form.</li>
         </ul>
 

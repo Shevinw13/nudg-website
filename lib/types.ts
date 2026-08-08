@@ -20,6 +20,7 @@ export interface PricingTier {
   description: string;
   highlighted: boolean;
   badge?: string;
+  features?: string[];
 }
 
 export interface Testimonial {
