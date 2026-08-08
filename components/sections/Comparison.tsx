@@ -23,7 +23,7 @@ const NUDGLI_WAY = [
 
 export function Comparison() {
   return (
-    <SectionWrapper id="comparison" background="mint">
+    <SectionWrapper id="comparison" background="gray">
       <AnimateOnScroll animation="fade-slide-up">
         <h2 className="text-3xl md:text-4xl font-bold text-navy text-center mb-4">
           Stop leaving reviews to chance.
