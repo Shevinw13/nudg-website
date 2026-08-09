@@ -26,7 +26,7 @@ export function Footer() {
               Download
             </h3>
             <a
-              href="#"
+              href="#beta"
               className="inline-flex items-center gap-2 min-h-[44px] bg-white text-navy px-4 py-2.5 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
               aria-label="Nudgli coming soon to the App Store"
             >

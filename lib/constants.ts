@@ -28,6 +28,7 @@ export const BRAND = {
 export const NAV_LINKS: NavLink[] = [
   { label: 'How It Works', href: '#how-it-works' },
   { label: 'Features', href: '#features' },
+  { label: 'Review Shield', href: '#review-shield' },
   { label: 'Pricing', href: '#pricing' },
 ];
 

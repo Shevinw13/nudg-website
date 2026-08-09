@@ -48,7 +48,7 @@ export function PricingCard({
           ))}
         </ul>
       )}
-      <Button variant={highlighted ? "primary" : "outline"} href="#" className="w-full">
+      <Button variant={highlighted ? "primary" : "outline"} href="#beta" className="w-full">
         Coming Soon
       </Button>
     </div>

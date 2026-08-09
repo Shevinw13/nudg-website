@@ -5,7 +5,7 @@ import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 
 export function SmsDemo() {
   return (
-    <SectionWrapper id="sms-demo" background="white" sectionClassName="!pb-6 lg:!pb-10">
+    <SectionWrapper id="sms-demo" background="gray" sectionClassName="!pb-6 lg:!pb-10">
       {/* Header */}
       <AnimateOnScroll animation="fade-slide-up">
         <div className="text-center mb-14">
