@@ -39,6 +39,7 @@ export default function PrivacyPage() {
           <li><strong>Device information:</strong> Device type, operating system version, unique device identifiers.</li>
           <li><strong>Usage data:</strong> Features used, number of review requests sent, response rates, and in-app actions.</li>
           <li><strong>Log data:</strong> IP address, access times, pages viewed on our website, and referring URLs.</li>
+          <li><strong>Notification preferences:</strong> Your push notification settings (SMS feedback, negative reviews, Shield alerts) are stored locally on your device and are not transmitted to our servers.</li>
           <li><strong>Cookies and similar technologies:</strong> We use cookies on our website for analytics and functionality. You can manage cookie preferences through your browser settings.</li>
         </ul>
 
