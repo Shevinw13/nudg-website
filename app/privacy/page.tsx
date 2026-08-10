@@ -138,6 +138,9 @@ export default function PrivacyPage() {
           <li>You comply with the Telephone Consumer Protection Act (TCPA) and all applicable federal, state, and local laws regarding SMS communications.</li>
           <li>You will honor opt-out requests. Nudgli automatically processes &quot;STOP&quot; replies and will not send further messages to numbers that have opted out.</li>
         </ul>
+        <p>
+          We do not share, sell, or distribute mobile phone numbers, messaging consent, or opt-in data with third parties or affiliates for marketing or promotional purposes.
+        </p>
 
         <h2>8. Children&apos;s Privacy</h2>
         <p>

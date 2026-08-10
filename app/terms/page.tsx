@@ -93,6 +93,7 @@ export default function TermsPage() {
           <li>You will not send messages to numbers on the National Do Not Call Registry unless you have an existing business relationship or prior express consent.</li>
           <li>You will maintain records of consent as required by law.</li>
           <li>Violation of TCPA or other messaging laws may result in immediate suspension or termination of your account.</li>
+          <li>Mobile information and messaging consent collected by Nudgli will not be shared with third parties or affiliates for marketing or promotional purposes.</li>
         </ul>
 
         <h2>7. Customer Data</h2>
