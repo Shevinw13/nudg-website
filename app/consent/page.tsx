@@ -164,7 +164,7 @@ export default function ConsentPage() {
         <ul>
           <li>Phone numbers are encrypted using AES-256 and stored securely.</li>
           <li>Phone numbers are used solely for the stated purpose (verification or review requests).</li>
-          <li><strong>We do not sell, share, or rent phone numbers or opt-in data to third parties.</strong></li>
+          <li><strong>We do not share, sell, or provide mobile phone numbers, messaging consent, or opt-in data to third parties or affiliates for marketing or promotional purposes. Message and data rates may apply.</strong></li>
           <li>Users may request deletion of their data at any time.</li>
           <li>Conversation data expires after 72 hours of inactivity.</li>
         </ul>

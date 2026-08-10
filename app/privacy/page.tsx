@@ -139,7 +139,10 @@ export default function PrivacyPage() {
           <li>You will honor opt-out requests. Nudgli automatically processes &quot;STOP&quot; replies and will not send further messages to numbers that have opted out.</li>
         </ul>
         <p>
-          We do not share, sell, or distribute mobile phone numbers, messaging consent, or opt-in data with third parties or affiliates for marketing or promotional purposes.
+          We do not share, sell, or provide your mobile phone number or messaging consent data to third parties
+          or affiliates for marketing or promotional purposes. Message frequency varies: customers typically
+          receive 1-3 messages per service interaction. Message and data rates may apply. Reply STOP to opt
+          out at any time. Reply HELP for assistance.
         </p>
 
         <h2>8. Children&apos;s Privacy</h2>
