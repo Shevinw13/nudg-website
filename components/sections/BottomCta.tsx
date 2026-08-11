@@ -6,8 +6,8 @@ import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 import { useState } from "react";
 
 const trustIndicators = [
-  "7-day free trial",
-  "No credit card required",
+  "7-day free trial (Shield included)",
+  "SMS activates on first payment",
   "Cancel anytime",
 ];
 
@@ -57,7 +57,7 @@ export function BottomCta() {
           </h2>
 
           <p className="text-lg text-white/70 mb-8 max-w-lg">
-            Be one of the first to try Nudgli. Sign up below and we&apos;ll send you an invite when your spot is ready.
+            Be one of the first to try Nudgli. Start with Review Shield free for 7 days — SMS activates when you subscribe.
           </p>
 
           {/* Beta Signup Form */}

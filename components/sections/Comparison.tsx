@@ -18,7 +18,7 @@ const NUDGLI_WAY = [
   "Automatic — works every single time",
   "10–20+ new reviews per month",
   "Real feedback you can act on immediately",
-  "Plans starting at $9.99/mo",
+  "Plans starting at $9.99/mo — try Shield free for 7 days",
 ];
 
 export function Comparison() {
