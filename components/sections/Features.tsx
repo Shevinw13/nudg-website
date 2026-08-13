@@ -43,10 +43,10 @@ const KEY_FEATURES = [
   },
   {
     icon: "star",
-    title: "Three Send Modes",
-    description: "Start with Smart Review to build your Google reputation. Switch to Quality Check once you're there — keep measuring every experience without asking for another review. Or go Direct Google when you just need the link.",
+    title: "Two Send Modes",
+    description: "Feedback Flow asks customers to rate their experience 1-5 — you get notified and can follow up with your Google link. Direct Google sends your review link straight away.",
     screen: "/images/mockups/app-send-modes.png",
-    screenAlt: "Nudgli send request screen showing three send mode options: Smart Review, Quality Check, and Direct Google Review",
+    screenAlt: "Nudgli send request screen showing two send mode options: Feedback Flow and Direct Google Link",
   },
 ];
 
@@ -63,7 +63,7 @@ export function Features() {
             Not just a review tool. Your ongoing feedback engine.
           </p>
           <p className="mt-2 text-sm text-gray-500">
-            Build your Google reputation first, then keep measuring every customer experience — without asking for another review. Nudgli grows with your business.
+            Collect real feedback after every job. Send your Google link when you&apos;re ready. Nudgli grows with your business.
           </p>
         </div>
       </AnimateOnScroll>

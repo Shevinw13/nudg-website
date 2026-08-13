@@ -58,8 +58,8 @@ export const FEATURES: Feature[] = [
   {
     id: 'send-modes',
     icon: 'star',
-    title: 'Three Send Modes',
-    description: 'Smart Review to build your Google reputation. Quality Check to keep measuring satisfaction once you\'re there. Direct Google when you just need the link.',
+    title: 'Two Send Modes',
+    description: 'Feedback Flow collects a 1-5 rating first. Direct Google sends your review link straight away. Pick the right one for the moment.',
   },
   {
     id: 'dashboard',
