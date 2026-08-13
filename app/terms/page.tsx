@@ -45,9 +45,9 @@ export default function TermsPage() {
         </p>
         <ul>
           <li>Send SMS review requests to your customers from a dedicated phone number assigned to your business.</li>
-          <li>Automatically route customer responses based on their satisfaction rating.</li>
-          <li>Direct happy customers (4-5 star ratings) to your Google Business Profile to leave a public review.</li>
-          <li>Receive private feedback from unhappy customers (1-3 star ratings) in your Nudgli inbox.</li>
+          <li>Collect customer satisfaction ratings and feedback through SMS.</li>
+          <li>Send your Google Business Profile link to customers at your discretion from within the app.</li>
+          <li>Receive private feedback from customers who want to share details about their experience.</li>
           <li>Track review activity, response rates, and business growth through a dashboard.</li>
         </ul>
         <p>

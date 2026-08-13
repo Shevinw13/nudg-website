@@ -13,7 +13,7 @@ export function SmsDemo() {
             The Nudgli Difference
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-xl mx-auto">
-            Other platforms send every customer to Google. Nudgli routes them intelligently based on their rating.
+            One text after every job. See how customers feel instantly — then send your Google review link while it&apos;s fresh.
           </p>
         </div>
       </AnimateOnScroll>
@@ -22,29 +22,29 @@ export function SmsDemo() {
       <AnimateOnScroll animation="fade-slide-up" delay={150}>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
 
-          {/* Happy Customer */}
-          <div className="bg-white rounded-3xl border-2 border-green-200 p-8 lg:p-10 shadow-md relative overflow-hidden">
-            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-green-400 to-green-500" />
+          {/* Customer Rates You */}
+          <div className="bg-white rounded-3xl border-2 border-teal/30 p-8 lg:p-10 shadow-md relative overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-teal to-teal/70" />
             <div className="flex items-center gap-3 mb-6">
               <span className="text-lg">⭐⭐⭐⭐⭐</span>
-              <span className="bg-green-50 text-green-700 rounded-full px-3 py-1 text-sm font-semibold">4–5 Stars</span>
+              <span className="bg-mint text-teal rounded-full px-3 py-1 text-sm font-semibold">Instant Rating</span>
             </div>
-            <h3 className="text-xl font-bold text-navy mb-3">→ Google Review Link</h3>
+            <h3 className="text-xl font-bold text-navy mb-3">→ You Get Notified</h3>
             <p className="text-navy/60 text-sm leading-relaxed">
-              Happy customers automatically receive your Google Review link. They leave a public 5-star review. Your reputation grows.
+              Customers rate their experience 1-5 via text. You get a push notification instantly — then send your Google review link with one tap while it&apos;s fresh.
             </p>
           </div>
 
-          {/* Needs Attention */}
+          {/* Feedback When It Matters */}
           <div className="bg-white rounded-3xl border-2 border-amber-200 p-8 lg:p-10 shadow-md relative overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-amber-400 to-amber-500" />
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-lg">⭐⭐☆☆☆</span>
-              <span className="bg-amber-50 text-amber-700 rounded-full px-3 py-1 text-sm font-semibold">1–3 Stars</span>
+              <span className="text-lg">💬</span>
+              <span className="bg-amber-50 text-amber-700 rounded-full px-3 py-1 text-sm font-semibold">Private Feedback</span>
             </div>
-            <h3 className="text-xl font-bold text-navy mb-3">→ Private Feedback</h3>
+            <h3 className="text-xl font-bold text-navy mb-3">→ Catch Issues Early</h3>
             <p className="text-navy/60 text-sm leading-relaxed">
-              Unhappy customers never see a Google link. Their feedback comes directly to you so you can resolve the issue before it becomes public.
+              Low ratings prompt customers to share what went wrong. You see the feedback in your inbox and can follow up before it becomes a public complaint.
             </p>
           </div>
         </div>

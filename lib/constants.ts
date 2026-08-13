@@ -52,8 +52,8 @@ export const FEATURES: Feature[] = [
   {
     id: 'smart-routing',
     icon: 'route',
-    title: 'Smart Routing',
-    description: 'Positive ratings go to Google Reviews. Negative ratings go to your private feedback inbox. Automatically.',
+    title: 'Instant Notifications',
+    description: 'Get notified the moment a customer rates you. Send your Google review link with one tap while the experience is fresh.',
   },
   {
     id: 'send-modes',
@@ -162,7 +162,7 @@ export const VALUE_PROPOSITIONS: ValueProposition[] = [
   {
     icon: 'star',
     title: 'More 5-Star Reviews',
-    description: 'Happy customers are guided straight to Google.',
+    description: 'Send your Google review link while the experience is fresh.',
   },
   {
     icon: 'shield',

@@ -14,7 +14,7 @@ const OLD_WAY = [
 const NUDGLI_WAY = [
   "One text in 5 seconds, right after the job",
   "85% actually respond via text",
-  "Unhappy feedback comes to you privately first",
+  "Get notified instantly, then send your Google link with one tap",
   "Automatic — works every single time",
   "10–20+ new reviews per month",
   "Real feedback you can act on immediately",
