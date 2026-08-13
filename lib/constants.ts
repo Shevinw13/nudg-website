@@ -162,7 +162,7 @@ export const VALUE_PROPOSITIONS: ValueProposition[] = [
   {
     icon: 'star',
     title: 'More 5-Star Reviews',
-    description: 'Send your Google review link while the experience is fresh.',
+    description: 'One tap sends your Google link. Customers review you in seconds.',
   },
   {
     icon: 'shield',
