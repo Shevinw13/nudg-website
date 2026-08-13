@@ -107,7 +107,7 @@ export default function PrivacyPage() {
         <ul>
           <li><strong>Access:</strong> You can request a copy of the personal information we hold about you.</li>
           <li><strong>Correction:</strong> You can update your account information at any time within the app.</li>
-          <li><strong>Deletion:</strong> You can request deletion of your account and associated data by contacting us. We will process deletion requests within 30 days.</li>
+          <li><strong>Deletion:</strong> You can delete your account and all associated data directly within the app (Settings → Account &amp; Security → Delete Account). Deletion is processed immediately. You may also contact us at <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a> and we will process your request within 30 days.</li>
           <li><strong>Push notifications:</strong> You can opt out of push notifications through your device settings.</li>
         </ul>
 

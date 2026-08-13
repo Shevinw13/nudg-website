@@ -104,6 +104,18 @@ export default function TermsPage() {
           <li>We will not use your customer data for our own marketing purposes or share it with other Nudgli users.</li>
           <li>Upon account deletion, customer data will be removed within 30 days.</li>
         </ul>
+        <p>
+          <strong>Data Processing.</strong> To the extent that Nudgli processes personal information on your behalf,
+          Nudgli acts as a &quot;service provider&quot; (as defined under the CCPA) or &quot;processor&quot; (as defined
+          under applicable data protection laws). We will process customer data only as necessary to provide the
+          Service and in accordance with your instructions as expressed through your use of the Service. We will not
+          sell, retain, use, or disclose customer data for any purpose other than performing the Service. We implement
+          commercially reasonable security measures as described in our{' '}
+          <a href="/privacy" className="text-teal hover:underline">Privacy Policy</a>. Upon termination of your
+          account, customer data will be deleted in accordance with our data retention policy. You may request a copy
+          of your customer data at any time by contacting{' '}
+          <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a>.
+        </p>
 
         <h2>8. Intellectual Property</h2>
         <ul>
