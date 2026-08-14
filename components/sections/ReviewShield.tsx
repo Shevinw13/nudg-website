@@ -7,7 +7,7 @@ const SHIELD_FEATURES = [
   {
     icon: "shield",
     title: "24/7 Monitoring",
-    description: "Scans your Google page every 4 hours. New reviews are analyzed automatically — you don't lift a finger.",
+    description: "Scans your Google page automatically throughout the day. New reviews are analyzed instantly — you don't lift a finger.",
   },
   {
     icon: "alert-circle",
