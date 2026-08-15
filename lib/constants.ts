@@ -119,7 +119,7 @@ export const PRICING_TIERS: PricingTier[] = [
     smsQuota: '50 SMS/month',
     description: 'Solo operators just getting started',
     highlighted: false,
-    features: ['Smart Review & Quality Check modes', 'Feedback inbox', 'Real-time dashboard', 'Push notifications'],
+    features: ['Feedback Flow & Direct Google modes', 'Feedback inbox', 'Real-time dashboard', 'Push notifications'],
   },
   {
     id: 'growth',
