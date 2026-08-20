@@ -59,7 +59,7 @@ export default function TermsPage() {
 
         <h2>4. Subscriptions and Payment</h2>
         <ul>
-          <li>The Service is offered through paid subscription plans with a 7-day free trial.</li>
+          <li>The Service offers a free tier (Review Shield only) and three paid subscription plans (Starter, Growth, Pro) that include SMS review requests. Paid subscriptions are billed immediately upon purchase with no free trial period.</li>
           <li>Subscriptions are billed and managed entirely through the Apple App Store.</li>
           <li>Each plan includes a monthly SMS quota. Messages beyond your quota will not be sent until the next billing cycle or an upgrade.</li>
           <li>Prices are subject to change. We will provide notice of price changes in advance.</li>
@@ -150,7 +150,7 @@ export default function TermsPage() {
           Your use of third-party services is governed by their respective terms and policies.
         </p>
 
-        <h2>10. Service Availability</h2>
+        <h2>11. Service Availability</h2>
         <ul>
           <li>We strive to maintain high availability but do not guarantee uninterrupted access to the Service.</li>
           <li>We may perform maintenance, updates, or modifications that temporarily affect availability.</li>
@@ -158,7 +158,7 @@ export default function TermsPage() {
           <li>We reserve the right to modify, suspend, or discontinue any feature of the Service at any time with reasonable notice.</li>
         </ul>
 
-        <h2>11. Termination</h2>
+        <h2>12. Termination</h2>
         <ul>
           <li>You may stop using the Service and cancel your subscription at any time.</li>
           <li>We may suspend or terminate your account immediately if you violate these Terms, engage in fraudulent activity, or use the Service in a way that harms others or our systems.</li>
@@ -166,7 +166,7 @@ export default function TermsPage() {
           <li>Sections of these Terms that by their nature should survive termination will survive (including Limitation of Liability, Indemnification, and Dispute Resolution).</li>
         </ul>
 
-        <h2>12. Disclaimer of Warranties</h2>
+        <h2>13. Disclaimer of Warranties</h2>
         <p>
           THE SERVICE IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTIES OF ANY KIND,
           EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY,
@@ -180,7 +180,7 @@ export default function TermsPage() {
           <li>Customer responses or reviews will be accurate or favorable.</li>
         </ul>
 
-        <h2>13. Limitation of Liability</h2>
+        <h2>14. Limitation of Liability</h2>
         <p>
           TO THE MAXIMUM EXTENT PERMITTED BY LAW, NUDGLI AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AND
           AGENTS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
@@ -192,7 +192,7 @@ export default function TermsPage() {
           AMOUNT YOU PAID US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
         </p>
 
-        <h2>14. Indemnification</h2>
+        <h2>15. Indemnification</h2>
         <p>
           You agree to indemnify, defend, and hold harmless Nudgli and its officers, directors, employees,
           and agents from any claims, damages, losses, liabilities, costs, or expenses (including reasonable
@@ -206,7 +206,7 @@ export default function TermsPage() {
           <li>Any dispute between you and your customers.</li>
         </ul>
 
-        <h2>15. Dispute Resolution</h2>
+        <h2>16. Dispute Resolution</h2>
         <p>
           Any dispute arising from these Terms or the Service shall be resolved through binding
           arbitration administered by the American Arbitration Association (AAA) under its Consumer
@@ -223,13 +223,13 @@ export default function TermsPage() {
           to the Service.
         </p>
 
-        <h2>16. Governing Law</h2>
+        <h2>17. Governing Law</h2>
         <p>
           These Terms are governed by and construed in accordance with the laws of the State of Georgia,
           without regard to its conflict of law provisions.
         </p>
 
-        <h2>17. Changes to These Terms</h2>
+        <h2>18. Changes to These Terms</h2>
         <p>
           We may update these Terms from time to time. We will notify you of material changes by posting
           the updated Terms on this page and updating the Effective Date. For significant changes, we may
@@ -237,7 +237,7 @@ export default function TermsPage() {
           take effect constitutes acceptance of the updated Terms.
         </p>
 
-        <h2>18. General Provisions</h2>
+        <h2>19. General Provisions</h2>
         <ul>
           <li><strong>Entire Agreement:</strong> These Terms, together with our Privacy Policy, constitute the entire agreement between you and Nudgli regarding the Service.</li>
           <li><strong>Severability:</strong> If any provision of these Terms is found to be unenforceable, the remaining provisions remain in full effect.</li>
@@ -246,7 +246,7 @@ export default function TermsPage() {
           <li><strong>Force Majeure:</strong> We are not liable for delays or failures caused by events beyond our reasonable control, including natural disasters, carrier outages, or government actions.</li>
         </ul>
 
-        <h2>19. Contact Us</h2>
+        <h2>20. Contact Us</h2>
         <p>If you have questions about these Terms, contact us at:</p>
         <p>
           Nudgli LLC<br />

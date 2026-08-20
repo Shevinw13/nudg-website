@@ -40,7 +40,7 @@ export function Pricing() {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10 space-y-1">
-        <p>7-day free trial includes Review Shield · SMS activates on first payment</p>
+        <p>Review Shield is free, forever · SMS is included with every paid plan</p>
         <p>Cancel anytime · Subscriptions managed through the Apple App Store</p>
       </div>
     </SectionWrapper>
