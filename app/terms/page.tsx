@@ -59,11 +59,13 @@ export default function TermsPage() {
 
         <h2>4. Subscriptions and Payment</h2>
         <ul>
-          <li>The Service offers a free tier (Review Shield only) and three paid subscription plans (Starter, Growth, Pro) that include SMS review requests. Paid subscriptions are billed immediately upon purchase with no free trial period.</li>
-          <li>Subscriptions are billed and managed entirely through the Apple App Store.</li>
+          <li>The Service offers a free tier (Review Shield only) and three paid subscription plans (Starter, Growth, Pro) that include SMS review requests.</li>
+          <li>All paid plans include a 7-day free trial. Users will not be charged during the trial period. SMS messaging is not available during the free trial; it activates upon the first payment.</li>
+          <li>Subscriptions auto-renew monthly unless cancelled at least 24 hours before the end of the current billing period.</li>
+          <li>Payment is charged to the user&apos;s Apple ID account at confirmation of purchase.</li>
           <li>Each plan includes a monthly SMS quota. Messages beyond your quota will not be sent until the next billing cycle or an upgrade.</li>
           <li>Prices are subject to change. We will provide notice of price changes in advance.</li>
-          <li>You may cancel your subscription at any time through your Apple ID account settings. Cancellation takes effect at the end of the current billing period.</li>
+          <li>You may cancel your subscription at any time through your Apple ID account settings. Cancellation takes effect at the end of the current billing period, at which point your account reverts to the free tier.</li>
           <li>Refunds are handled by Apple in accordance with their refund policies.</li>
           <li>No credit card information is collected or stored by Nudgli.</li>
         </ul>

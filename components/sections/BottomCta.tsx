@@ -7,7 +7,7 @@ import { useState } from "react";
 
 const trustIndicators = [
   "Review Shield free, forever",
-  "SMS included on paid plans",
+  "7-day free trial on all paid plans",
   "Cancel anytime",
 ];
 
@@ -57,7 +57,7 @@ export function BottomCta() {
           </h2>
 
           <p className="text-lg text-white/70 mb-8 max-w-lg">
-            Be one of the first to try Nudgli. Review Shield is free, forever. Subscribe to a paid plan to start sending SMS review requests.
+            Start free with Review Shield — monitor and protect your Google reviews at no cost. Ready to grow? Try any plan free for 7 days.
           </p>
 
           {/* Beta Signup Form */}
