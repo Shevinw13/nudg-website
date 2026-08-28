@@ -145,7 +145,20 @@ export default function PrivacyPage() {
           out at any time. Reply HELP for assistance.
         </p>
 
-        <h2>8. Children&apos;s Privacy</h2>
+        <h2>8. SMS/Text Messaging</h2>
+        <p>
+          Nudgli sends SMS messages on behalf of businesses that use our platform to request feedback
+          from their customers.
+        </p>
+        <ul>
+          <li><strong>Consent:</strong> Business owners confirm they have obtained consent from their customers before sending review requests through Nudgli. Business owners also consent to receive a one-time verification text from our messaging provider (Twilio) during registration.</li>
+          <li><strong>Mobile information:</strong> We do not sell or share mobile phone numbers or SMS consent with third parties for marketing or promotional purposes. Phone numbers are used solely to deliver review-request messages and to operate the service.</li>
+          <li><strong>Message frequency:</strong> Message frequency varies based on how often a business sends review requests.</li>
+          <li><strong>Message and data rates:</strong> Message and data rates may apply.</li>
+          <li><strong>Opt-out:</strong> Recipients can reply STOP at any time to stop receiving messages, or HELP for assistance.</li>
+        </ul>
+
+        <h2>9. Children&apos;s Privacy</h2>
         <p>
           The Service is not intended for use by anyone under the age of 18. We do not knowingly collect
           personal information from children. If we learn that we have collected personal information from
@@ -153,21 +166,21 @@ export default function PrivacyPage() {
           us with personal information, please contact us.
         </p>
 
-        <h2>9. International Data Transfers</h2>
+        <h2>10. International Data Transfers</h2>
         <p>
           Your information is processed and stored in the United States. If you access the Service from
           outside the United States, your information will be transferred to and processed in the United States,
           where data protection laws may differ from those in your jurisdiction.
         </p>
 
-        <h2>10. Third-Party Links</h2>
+        <h2>11. Third-Party Links</h2>
         <p>
           The Service may contain links to third-party websites or services (such as Google Reviews).
           We are not responsible for the privacy practices of these third parties. We encourage you to
           review their privacy policies before providing them with your information.
         </p>
 
-        <h2>11. Changes to This Privacy Policy</h2>
+        <h2>12. Changes to This Privacy Policy</h2>
         <p>
           We may update this Privacy Policy from time to time. We will notify you of material changes by
           posting the updated policy on this page and updating the &quot;Effective Date&quot; above. For significant
@@ -175,7 +188,7 @@ export default function PrivacyPage() {
           after changes constitutes acceptance of the updated policy.
         </p>
 
-        <h2>12. Contact Us</h2>
+        <h2>13. Contact Us</h2>
         <p>If you have questions or concerns about this Privacy Policy or our data practices, contact us at:</p>
         <p>
           Nudgli LLC<br />

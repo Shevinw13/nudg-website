@@ -98,7 +98,17 @@ export default function TermsPage() {
           <li>Mobile information and messaging consent collected by Nudgli will not be shared with third parties or affiliates for marketing or promotional purposes. Message and data rates may apply.</li>
         </ul>
 
-        <h2>7. Customer Data</h2>
+        <h2>7. SMS Messaging and Business Responsibilities</h2>
+        <p>By registering a business on Nudgli, you agree to the following:</p>
+        <ul>
+          <li><strong>Verification:</strong> You consent to receive a one-time verification text from our messaging provider (Twilio) at the mobile number you provide. You must reply to this message to activate messaging. The mobile number must be a number you own and control.</li>
+          <li><strong>Customer consent:</strong> You are solely responsible for obtaining consent from your own customers before sending them review requests through Nudgli. You represent that you have a prior relationship with each customer you contact and that you have obtained their permission to be contacted by SMS.</li>
+          <li><strong>Compliance:</strong> You agree to use Nudgli&apos;s messaging features in compliance with all applicable laws, including the Telephone Consumer Protection Act (TCPA) and carrier requirements. You will not use the service to send spam, marketing to non-consenting recipients, or prohibited content.</li>
+          <li><strong>Message rates:</strong> Standard message and data rates may apply. Message frequency varies based on your usage.</li>
+          <li><strong>Opt-out handling:</strong> Recipients may reply STOP to opt out. Nudgli honors opt-out requests automatically, and you agree not to circumvent them.</li>
+        </ul>
+
+        <h2>8. Customer Data</h2>
         <ul>
           <li>You retain ownership of the customer data (phone numbers, names) that you input into the Service.</li>
           <li>You grant us a limited license to use this data solely to operate the Service on your behalf (sending messages, displaying responses, generating analytics).</li>
@@ -119,7 +129,7 @@ export default function TermsPage() {
           <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a>.
         </p>
 
-        <h2>8. Intellectual Property</h2>
+        <h2>9. Intellectual Property</h2>
         <ul>
           <li>The Service, including its design, code, features, and branding, is owned by Nudgli and protected by copyright, trademark, and other intellectual property laws.</li>
           <li>You are granted a limited, non-exclusive, non-transferable, revocable license to use the Service for its intended purpose during your active subscription.</li>
@@ -127,7 +137,7 @@ export default function TermsPage() {
           <li>The Nudgli name, logo, and related marks are our trademarks. You may not use them without our prior written consent.</li>
         </ul>
 
-        <h2>9. Third-Party Services</h2>
+        <h2>10. Third-Party Services</h2>
         <p>The Service integrates with or relies on the following third-party services:</p>
         <ul>
           <li><strong>Apple App Store:</strong> For subscription billing and app distribution. Subject to Apple&apos;s Terms of Service.</li>
@@ -136,7 +146,7 @@ export default function TermsPage() {
           <li><strong>Anthropic (Claude AI):</strong> For analyzing Google reviews for potential policy violations and generating response suggestions. Only publicly available review data is shared with Anthropic.</li>
         </ul>
 
-        <h2>10. Review Shield</h2>
+        <h2>11. Review Shield</h2>
         <p>Review Shield is an AI-powered review monitoring feature available to Growth and Pro subscribers. By using Review Shield, you acknowledge and agree that:</p>
         <ul>
           <li>Review Shield analyzes publicly available Google reviews for potential policy violations. It does not guarantee the removal of any review.</li>
@@ -152,7 +162,7 @@ export default function TermsPage() {
           Your use of third-party services is governed by their respective terms and policies.
         </p>
 
-        <h2>11. Service Availability</h2>
+        <h2>12. Service Availability</h2>
         <ul>
           <li>We strive to maintain high availability but do not guarantee uninterrupted access to the Service.</li>
           <li>We may perform maintenance, updates, or modifications that temporarily affect availability.</li>
@@ -160,7 +170,7 @@ export default function TermsPage() {
           <li>We reserve the right to modify, suspend, or discontinue any feature of the Service at any time with reasonable notice.</li>
         </ul>
 
-        <h2>12. Termination</h2>
+        <h2>13. Termination</h2>
         <ul>
           <li>You may stop using the Service and cancel your subscription at any time.</li>
           <li>We may suspend or terminate your account immediately if you violate these Terms, engage in fraudulent activity, or use the Service in a way that harms others or our systems.</li>
@@ -168,7 +178,7 @@ export default function TermsPage() {
           <li>Sections of these Terms that by their nature should survive termination will survive (including Limitation of Liability, Indemnification, and Dispute Resolution).</li>
         </ul>
 
-        <h2>13. Disclaimer of Warranties</h2>
+        <h2>14. Disclaimer of Warranties</h2>
         <p>
           THE SERVICE IS PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot; WITHOUT WARRANTIES OF ANY KIND,
           EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY,
@@ -182,7 +192,7 @@ export default function TermsPage() {
           <li>Customer responses or reviews will be accurate or favorable.</li>
         </ul>
 
-        <h2>14. Limitation of Liability</h2>
+        <h2>15. Limitation of Liability</h2>
         <p>
           TO THE MAXIMUM EXTENT PERMITTED BY LAW, NUDGLI AND ITS OFFICERS, DIRECTORS, EMPLOYEES, AND
           AGENTS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
@@ -194,7 +204,7 @@ export default function TermsPage() {
           AMOUNT YOU PAID US IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
         </p>
 
-        <h2>15. Indemnification</h2>
+        <h2>16. Indemnification</h2>
         <p>
           You agree to indemnify, defend, and hold harmless Nudgli and its officers, directors, employees,
           and agents from any claims, damages, losses, liabilities, costs, or expenses (including reasonable
@@ -208,7 +218,7 @@ export default function TermsPage() {
           <li>Any dispute between you and your customers.</li>
         </ul>
 
-        <h2>16. Dispute Resolution</h2>
+        <h2>17. Dispute Resolution</h2>
         <p>
           Any dispute arising from these Terms or the Service shall be resolved through binding
           arbitration administered by the American Arbitration Association (AAA) under its Consumer
@@ -225,13 +235,13 @@ export default function TermsPage() {
           to the Service.
         </p>
 
-        <h2>17. Governing Law</h2>
+        <h2>18. Governing Law</h2>
         <p>
           These Terms are governed by and construed in accordance with the laws of the State of Georgia,
           without regard to its conflict of law provisions.
         </p>
 
-        <h2>18. Changes to These Terms</h2>
+        <h2>19. Changes to These Terms</h2>
         <p>
           We may update these Terms from time to time. We will notify you of material changes by posting
           the updated Terms on this page and updating the Effective Date. For significant changes, we may
@@ -239,7 +249,7 @@ export default function TermsPage() {
           take effect constitutes acceptance of the updated Terms.
         </p>
 
-        <h2>19. General Provisions</h2>
+        <h2>20. General Provisions</h2>
         <ul>
           <li><strong>Entire Agreement:</strong> These Terms, together with our Privacy Policy, constitute the entire agreement between you and Nudgli regarding the Service.</li>
           <li><strong>Severability:</strong> If any provision of these Terms is found to be unenforceable, the remaining provisions remain in full effect.</li>
@@ -248,7 +258,7 @@ export default function TermsPage() {
           <li><strong>Force Majeure:</strong> We are not liable for delays or failures caused by events beyond our reasonable control, including natural disasters, carrier outages, or government actions.</li>
         </ul>
 
-        <h2>20. Contact Us</h2>
+        <h2>21. Contact Us</h2>
         <p>If you have questions about these Terms, contact us at:</p>
         <p>
           Nudgli LLC<br />
