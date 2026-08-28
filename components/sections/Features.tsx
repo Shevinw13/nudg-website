@@ -35,16 +35,9 @@ const KEY_FEATURES = [
     screenAlt: "Phone lock screen showing Nudgli push notifications for a new 5-star review and a needs-attention alert",
   },
   {
-    icon: "copy-check",
-    title: "Request History",
-    description: "See every review request you've sent, who responded, and what they said.",
-    screen: "/images/mockups/app-history.png",
-    screenAlt: "Nudgli request history showing all past review requests with status indicators",
-  },
-  {
     icon: "inbox",
     title: "Your Customers, Remembered",
-    description: "Every customer you text builds a record automatically — ratings, feedback, and when you last reached out. Add a private note and it's there next time. No setup, no data entry.",
+    description: "Every customer you text builds a record automatically — ratings, feedback, history, and private notes. No setup, no data entry. It just builds itself as you work.",
     screen: "/images/mockups/app-history.png",
     screenAlt: "Nudgli customer view showing interaction history, ratings, and notes for a customer",
   },
