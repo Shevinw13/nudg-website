@@ -42,6 +42,13 @@ const KEY_FEATURES = [
     screenAlt: "Nudgli request history showing all past review requests with status indicators",
   },
   {
+    icon: "inbox",
+    title: "Your Customers, Remembered",
+    description: "Every customer you text builds a record automatically — ratings, feedback, and when you last reached out. Add a private note and it's there next time. No setup, no data entry.",
+    screen: "/images/mockups/app-history.png",
+    screenAlt: "Nudgli customer view showing interaction history, ratings, and notes for a customer",
+  },
+  {
     icon: "star",
     title: "Two Send Modes",
     description: "Feedback Flow asks customers to rate their experience 1-5 — you get notified and can follow up with your Google link. Direct Google sends your review link straight away.",

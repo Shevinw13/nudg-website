@@ -74,6 +74,12 @@ export const FEATURES: Feature[] = [
     description: 'View negative feedback, call customers directly, and mark issues resolved. All in one place.',
   },
   {
+    id: 'customers',
+    icon: 'inbox',
+    title: 'Your Customers, Remembered',
+    description: 'Every customer you text builds a record automatically — ratings, feedback, and history. Add private notes for next time. No setup, it just builds itself.',
+  },
+  {
     id: 'notifications',
     icon: 'bell',
     title: 'Push Notifications',

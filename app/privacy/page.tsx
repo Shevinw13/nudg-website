@@ -30,6 +30,8 @@ export default function PrivacyPage() {
           <li><strong>Account information:</strong> Name, email address, phone number, business name, and Google Business Profile link when you register.</li>
           <li><strong>Business details:</strong> Business phone number (mobile), street address, city, state, zip code, and website (optional) collected during onboarding for SMS registration purposes.</li>
           <li><strong>Customer data:</strong> Phone numbers and optional names of your customers that you enter to send review requests.</li>
+          <li><strong>Customer notes:</strong> Business owners may store private notes about their own customers (e.g., service preferences or access instructions). These notes are encrypted at rest, visible only to the business that created them, and are never sold or shared with third parties. Nudgli does not use note content for any purpose other than displaying it back to the business that wrote it.</li>
+          <li><strong>Customer records:</strong> For each customer a business contacts through Nudgli, we retain a record of interactions (request dates, ratings, feedback) so the business can see their relationship history.</li>
           <li><strong>Payment information:</strong> Subscription purchases are processed by Apple through the App Store. We do not collect or store credit card numbers or billing details.</li>
           <li><strong>Communications:</strong> Messages you send to our support team.</li>
         </ul>
@@ -95,7 +97,8 @@ export default function PrivacyPage() {
         <h2>5. Data Retention</h2>
         <ul>
           <li><strong>Account data:</strong> Retained for as long as your account is active. Upon account deletion, we remove your personal information within 30 days.</li>
-          <li><strong>Customer phone numbers:</strong> Retained only for the duration needed to process the review request and any follow-up. Conversation data expires after 72 hours of inactivity.</li>
+          <li><strong>Customer phone numbers:</strong> Retained only for the duration needed to process the review request and any follow-up. Active SMS conversation data expires after 72 hours of inactivity.</li>
+          <li><strong>Customer records and notes:</strong> Retained for as long as your account is active so you can view your relationship history with each customer. You can delete a customer&apos;s record and notes at any time within the app.</li>
           <li><strong>SMS logs:</strong> Retained for up to 12 months for analytics and dispute resolution, then automatically deleted.</li>
           <li><strong>Google review data:</strong> Retained for 30 days, then automatically deleted. This includes reviewer names, ratings, review text, and analysis results from Review Shield.</li>
           <li><strong>Aggregated analytics:</strong> May be retained indefinitely in de-identified form.</li>

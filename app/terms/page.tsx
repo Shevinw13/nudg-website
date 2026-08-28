@@ -115,6 +115,8 @@ export default function TermsPage() {
           <li>You represent that you have the right to provide this customer data to us and that doing so does not violate any law or third-party rights.</li>
           <li>We will not use your customer data for our own marketing purposes or share it with other Nudgli users.</li>
           <li>Upon account deletion, customer data will be removed within 30 days.</li>
+          <li><strong>Customer notes:</strong> Customer notes are for legitimate business record-keeping only. You agree not to store unlawful, discriminatory, or sensitive personal information (such as health, financial, or protected-category data) about your customers, and you are solely responsible for the content and lawful use of any notes you create.</li>
+          <li><strong>Lawful basis:</strong> You represent that you have a lawful basis to store and process information about your customers, and you remain the controller of that data. Nudgli processes it on your behalf solely to provide the Service.</li>
         </ul>
         <p>
           <strong>Data Processing.</strong> To the extent that Nudgli processes personal information on your behalf,
