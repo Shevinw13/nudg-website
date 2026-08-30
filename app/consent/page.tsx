@@ -141,13 +141,25 @@ export default function ConsentPage() {
           <li><strong>No marketing:</strong> Messages are transactional (feedback requests only). No promotional content is sent.</li>
         </ul>
 
+        <h3>Two-Way Messaging &amp; Inbound Calls</h3>
+        <p>
+          The dedicated phone number assigned to a business can receive replies and calls
+          from customers:
+        </p>
+        <ul>
+          <li><strong>Replies:</strong> Customers may reply to any message. Their replies are delivered to the business owner. If a customer replies outside of an active feedback conversation, they receive a single courtesy auto-reply letting them know their message was received.</li>
+          <li><strong>This number is not monitored 24/7.</strong> The courtesy auto-reply states this, and customers are directed to contact the business by other means for urgent matters.</li>
+          <li><strong>Inbound calls:</strong> If a customer calls the number, the call is forwarded to the business&apos;s own phone. Nudgli does not answer or record calls.</li>
+          <li><strong>Photos (MMS):</strong> Customers may send photos, which are delivered to the business owner alongside that customer&apos;s feedback.</li>
+        </ul>
+
         {/* ===== Opt-Out ===== */}
         <h2>3. Opt-Out Process</h2>
         <p>Both business owners and customers can opt out at any time:</p>
         <ul>
           <li>Reply <strong>STOP</strong> to immediately opt out of all future messages.</li>
           <li>Upon receiving STOP, the system sends a confirmation and no further messages are sent to that number.</li>
-          <li>Reply <strong>START</strong> or <strong>UNSTOP</strong> to re-subscribe at any time.</li>
+          <li>Reply <strong>START</strong> or <strong>UNSTOP</strong> to re-subscribe at any time. You will receive a confirmation reply acknowledging that you have re-subscribed.</li>
           <li>Reply <strong>HELP</strong> to receive support information and contact details.</li>
         </ul>
 
@@ -166,7 +178,7 @@ export default function ConsentPage() {
           <li>Phone numbers are used solely for the stated purpose (verification or review requests).</li>
           <li><strong>We do not share, sell, or provide mobile phone numbers, messaging consent, or opt-in data to third parties or affiliates for marketing or promotional purposes. Message and data rates may apply.</strong></li>
           <li>Users may request deletion of their data at any time.</li>
-          <li>Conversation data expires after 72 hours of inactivity.</li>
+          <li>Active SMS conversation threads expire after 72 hours of inactivity. Customer records and history (such as ratings, feedback, and business-owner notes) are retained for as long as the business&apos;s account is active so the business can maintain an ongoing relationship record. See our <a href="/privacy" className="text-teal hover:underline">Privacy Policy</a> for full retention details.</li>
         </ul>
         <p>
           Nudgli complies with the Telephone Consumer Protection Act (TCPA), CTIA guidelines,
@@ -181,9 +193,9 @@ export default function ConsentPage() {
         </p>
         <p>
           Nudgli LLC<br />
-          Website: <a href="https://nudgli.app" className="text-teal hover:underline">https://nudgli.app</a><br />
-          Terms of Service: <a href="/terms" className="text-teal hover:underline">https://nudgli.app/terms</a><br />
-          Privacy Policy: <a href="/privacy" className="text-teal hover:underline">https://nudgli.app/privacy</a>
+          Website: <a href="https://www.nudgli.app" className="text-teal hover:underline">https://www.nudgli.app</a><br />
+          Terms of Service: <a href="/terms" className="text-teal hover:underline">https://www.nudgli.app/terms</a><br />
+          Privacy Policy: <a href="/privacy" className="text-teal hover:underline">https://www.nudgli.app/privacy</a>
         </p>
       </div>
     </div>

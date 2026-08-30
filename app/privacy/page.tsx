@@ -30,6 +30,7 @@ export default function PrivacyPage() {
           <li><strong>Account information:</strong> Name, email address, phone number, business name, and Google Business Profile link when you register.</li>
           <li><strong>Business details:</strong> Business phone number (mobile), street address, city, state, zip code, and website (optional) collected during onboarding for SMS registration purposes.</li>
           <li><strong>Customer data:</strong> Phone numbers and optional names of your customers that you enter to send review requests.</li>
+          <li><strong>Customer-submitted media:</strong> Customers may send photos or other media (MMS) to the business&apos;s dedicated number. This media is received through our SMS provider (Twilio), stored, and displayed to the business alongside that customer&apos;s feedback. Businesses are responsible for not soliciting or storing sensitive images, and this media is treated the same as other customer content described in this policy.</li>
           <li><strong>Customer notes:</strong> Business owners may store private notes about their own customers (e.g., service preferences or access instructions). These notes are encrypted at rest, visible only to the business that created them, and are never sold or shared with third parties. Nudgli does not use note content for any purpose other than displaying it back to the business that wrote it.</li>
           <li><strong>Customer records:</strong> For each customer a business contacts through Nudgli, we retain a record of interactions (request dates, ratings, feedback) so the business can see their relationship history.</li>
           <li><strong>Payment information:</strong> Subscription purchases are processed by Apple through the App Store. We do not collect or store credit card numbers or billing details.</li>
@@ -48,6 +49,8 @@ export default function PrivacyPage() {
         <h3>Information from Third Parties</h3>
         <ul>
           <li><strong>SMS delivery data:</strong> Delivery status and response data from our SMS service provider (Twilio) for messages sent through the Service.</li>
+          <li><strong>Inbound messages and media:</strong> When a customer replies to a message or sends a photo (MMS), we receive that content through Twilio and deliver it to the business owner.</li>
+          <li><strong>Inbound call routing:</strong> When a customer calls a business&apos;s dedicated number, we route the call to the business owner&apos;s own phone through Twilio. Nudgli does not answer or record the contents of these calls.</li>
           <li><strong>SMS registration data:</strong> Registration status and phone number assignment from Twilio when provisioning your dedicated business phone number.</li>
           <li><strong>Google Reviews data:</strong> Publicly available review data (reviewer display name, star rating, review text, and review date) pulled from your Google Business Profile via the Google Places API. This data is stored for 30 days and then automatically deleted.</li>
           <li><strong>App Store data:</strong> Subscription status from Apple.</li>
@@ -99,6 +102,7 @@ export default function PrivacyPage() {
           <li><strong>Account data:</strong> Retained for as long as your account is active. Upon account deletion, we remove your personal information within 30 days.</li>
           <li><strong>Customer phone numbers:</strong> Retained only for the duration needed to process the review request and any follow-up. Active SMS conversation data expires after 72 hours of inactivity.</li>
           <li><strong>Customer records and notes:</strong> Retained for as long as your account is active so you can view your relationship history with each customer. You can delete a customer&apos;s record and notes at any time within the app.</li>
+          <li><strong>Customer-submitted media (MMS):</strong> Photos and other media sent by customers are retained as part of that customer&apos;s feedback record for as long as your account is active, and are deleted when you delete the associated customer record or your account.</li>
           <li><strong>SMS logs:</strong> Retained for up to 12 months for analytics and dispute resolution, then automatically deleted.</li>
           <li><strong>Google review data:</strong> Retained for 30 days, then automatically deleted. This includes reviewer names, ratings, review text, and analysis results from Review Shield.</li>
           <li><strong>Aggregated analytics:</strong> May be retained indefinitely in de-identified form.</li>
@@ -151,7 +155,11 @@ export default function PrivacyPage() {
         <h2>8. SMS/Text Messaging</h2>
         <p>
           Nudgli sends SMS messages on behalf of businesses that use our platform to request feedback
-          from their customers.
+          from their customers. The dedicated number assigned to a business can also receive replies,
+          photos (MMS), and calls from customers. Replies and media are delivered to the business owner,
+          and inbound calls are forwarded to the business owner&apos;s own phone. The number is not
+          monitored 24/7, and an automated courtesy reply informs customers of this when they message
+          outside an active feedback conversation.
         </p>
         <ul>
           <li><strong>Consent:</strong> Business owners confirm they have obtained consent from their customers before sending review requests through Nudgli. Business owners also consent to receive a one-time verification text from our messaging provider (Twilio) during registration.</li>

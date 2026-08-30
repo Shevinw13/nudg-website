@@ -48,6 +48,8 @@ export default function TermsPage() {
           <li>Collect customer satisfaction ratings and feedback through SMS.</li>
           <li>Send your Google Business Profile link to customers at your discretion from within the app.</li>
           <li>Receive private feedback from customers who want to share details about their experience.</li>
+          <li>Receive customer replies, photos (MMS), and forwarded inbound calls through your dedicated number.</li>
+          <li>Maintain an ongoing record of your customers, including per-customer status, history, and private notes.</li>
           <li>Track review activity, response rates, and business growth through a dashboard.</li>
         </ul>
         <p>
@@ -102,7 +104,7 @@ export default function TermsPage() {
         <p>By registering a business on Nudgli, you agree to the following:</p>
         <ul>
           <li><strong>Verification:</strong> You consent to receive a one-time verification text from our messaging provider (Twilio) at the mobile number you provide. You must reply to this message to activate messaging. The mobile number must be a number you own and control.</li>
-          <li><strong>Customer consent:</strong> You are solely responsible for obtaining consent from your own customers before sending them review requests through Nudgli. You represent that you have a prior relationship with each customer you contact and that you have obtained their permission to be contacted by SMS.</li>
+          <li><strong>Customer consent (including follow-ups):</strong> You are solely responsible for obtaining consent from your own customers before sending them any message through Nudgli. You represent that you have a prior relationship with each customer you contact and that you have obtained their permission to be contacted by SMS. This responsibility applies to every message you send, including follow-up review requests, re-engagement messages, and reminders sent on a recurring cadence. Nudgli&apos;s follow-up and re-engagement features are tools to help you contact customers who have already consented; enabling them does not create or substitute for that consent.</li>
           <li><strong>Compliance:</strong> You agree to use Nudgli&apos;s messaging features in compliance with all applicable laws, including the Telephone Consumer Protection Act (TCPA) and carrier requirements. You will not use the service to send spam, marketing to non-consenting recipients, or prohibited content.</li>
           <li><strong>Message rates:</strong> Standard message and data rates may apply. Message frequency varies based on your usage.</li>
           <li><strong>Opt-out handling:</strong> Recipients may reply STOP to opt out. Nudgli honors opt-out requests automatically, and you agree not to circumvent them.</li>
@@ -116,6 +118,7 @@ export default function TermsPage() {
           <li>We will not use your customer data for our own marketing purposes or share it with other Nudgli users.</li>
           <li>Upon account deletion, customer data will be removed within 30 days.</li>
           <li><strong>Customer notes:</strong> Customer notes are for legitimate business record-keeping only. You agree not to store unlawful, discriminatory, or sensitive personal information (such as health, financial, or protected-category data) about your customers, and you are solely responsible for the content and lawful use of any notes you create.</li>
+          <li><strong>Customer-submitted media:</strong> Customers may send photos (MMS) that are stored with their feedback record. You are responsible for not soliciting sensitive, unlawful, or protected-category images, and for the lawful use and retention of any media you receive.</li>
           <li><strong>Lawful basis:</strong> You represent that you have a lawful basis to store and process information about your customers, and you remain the controller of that data. Nudgli processes it on your behalf solely to provide the Service.</li>
         </ul>
         <p>
