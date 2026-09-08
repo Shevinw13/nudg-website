@@ -60,3 +60,15 @@ export const termsMetadata = createMetadata({
   description: 'Read the Nudgli terms of service to understand the rules and guidelines for using our SMS review collection platform.',
   path: '/terms',
 });
+
+export const smsPrivacyMetadata = createMetadata({
+  title: 'SMS Messaging Privacy Policy - Nudgli',
+  description: 'Privacy policy for SMS feedback-request messages sent by independent local businesses using the Nudgli platform.',
+  path: '/sms-privacy',
+});
+
+export const smsTermsMetadata = createMetadata({
+  title: 'SMS Messaging Terms & Conditions - Nudgli',
+  description: 'Terms and conditions for SMS feedback-request messages sent by independent local businesses using the Nudgli platform.',
+  path: '/sms-terms',
+});
