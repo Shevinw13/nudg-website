@@ -14,10 +14,11 @@ export default function SmsTermsPage() {
 
         <p>
           These SMS Messaging Terms &amp; Conditions apply to text messages sent by independent
-          local businesses (each, &quot;the Business&quot;) to their own customers using the Nudgli
+          local businesses (each, &quot;the Business&quot;) &mdash; including sole proprietors and
+          registered companies (LLCs, corporations) &mdash; to their own customers using the Nudgli
           platform, provided by Nudgli LLC. Each Business is a separate, independently operated
-          business (in most cases a sole proprietor) and is the sender of these messages. Nudgli is
-          the messaging platform and technology provider only.
+          business and is the sender of these messages. Nudgli is the messaging platform and
+          technology provider only.
         </p>
 
         <h2>1. Program Name</h2>
