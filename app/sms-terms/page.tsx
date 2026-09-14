@@ -16,7 +16,7 @@ export default function SmsTermsPage() {
           These SMS Messaging Terms &amp; Conditions apply to text messages sent by independent
           local businesses (each, &quot;the Business&quot;) &mdash; including sole proprietors and
           registered companies (LLCs, corporations) &mdash; to their own customers using the Nudgli
-          platform, provided by Nudgli LLC. Each Business is a separate, independently operated
+          platform, provided by Nudgli. Each Business is a separate, independently operated
           business and is the sender of these messages. Nudgli is the messaging platform and
           technology provider only.
         </p>
@@ -24,7 +24,7 @@ export default function SmsTermsPage() {
         <h2>1. Program Name</h2>
         <p>
           Nudgli Feedback Requests, sent by an independent local business (&quot;the Business&quot;)
-          using the Nudgli platform (provided by Nudgli LLC).
+          using the Nudgli platform (provided by Nudgli).
         </p>
 
         <h2>2. Program Description</h2>

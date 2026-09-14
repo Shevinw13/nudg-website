@@ -16,7 +16,7 @@ export default function SmsPrivacyPage() {
           This SMS Messaging Privacy Policy applies to the text messages sent by independent
           local businesses (each, &quot;the Business&quot;) &mdash; including sole proprietors and
           registered companies (LLCs, corporations) &mdash; to their own customers using Nudgli, a
-          messaging platform provided by Nudgli LLC. Each Business is a separate, independently
+          messaging platform provided by Nudgli. Each Business is a separate, independently
           operated business that is solely responsible for its own customer relationships and
           communications. Nudgli is the technology provider that delivers messages on the
           Business&apos;s behalf; Nudgli does not own the customer relationship and does not market
