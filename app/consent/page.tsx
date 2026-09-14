@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'SMS Consent & Opt-In Process - Nudgli',
-  description: 'How Nudgli collects SMS consent from business owners and their customers. Opt-in process, verification flow, and compliance details.',
+  description: 'How SMS consent is collected by independent local businesses using Nudgli as their messaging platform. Opt-in process, verification flow, and compliance details.',
 };
 
 export default function ConsentPage() {
@@ -14,12 +14,17 @@ export default function ConsentPage() {
           Effective Date: July 4, 2026
         </p>
 
-        <h2>How Nudgli Collects SMS Consent</h2>
+        <h2>How Consent Is Collected</h2>
         <p>
-          Nudgli sends SMS messages only to users who have explicitly opted in through our
-          in-app registration process. We never send unsolicited messages. Below is the
-          complete opt-in flow for both business owners (platform messages) and their
-          customers (review request messages).
+          The customer-facing text messages described here are sent by independent local
+          businesses (each, &ldquo;the Business&rdquo;) — in most cases a sole proprietor, and in some
+          cases a registered company — to their own customers. Each Business operates its own
+          messaging program and is the sender of these messages. Nudgli is the technology
+          platform that delivers messages on the Business&apos;s behalf; Nudgli is not the sender
+          and does not own the customer relationship. Separately, Nudgli sends operational
+          account-verification texts to business owners who opt in during signup. Messages are
+          only sent to people who have opted in through the processes described below.
+          Unsolicited messages are never sent.
         </p>
 
         {/* ===== SECTION 1: Business Owner Opt-In (Toll-Free) ===== */}
@@ -177,6 +182,7 @@ export default function ConsentPage() {
           <li>Phone numbers are encrypted using AES-256 and stored securely.</li>
           <li>Phone numbers are used solely for the stated purpose (verification or review requests).</li>
           <li><strong>We do not share, sell, or provide mobile phone numbers, messaging consent, or opt-in data to third parties or affiliates for marketing or promotional purposes. Message and data rates may apply.</strong></li>
+          <li>Carriers are not liable for any delayed or undelivered messages.</li>
           <li>Users may request deletion of their data at any time.</li>
           <li>Active SMS conversation threads expire after 72 hours of inactivity. Customer records and history (such as ratings, feedback, and business-owner notes) are retained for as long as the business&apos;s account is active so the business can maintain an ongoing relationship record. See our <a href="/privacy" className="text-teal hover:underline">Privacy Policy</a> for full retention details.</li>
         </ul>
@@ -192,10 +198,11 @@ export default function ConsentPage() {
           <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a>
         </p>
         <p>
-          Nudgli LLC<br />
-          Website: <a href="https://www.nudgli.app" className="text-teal hover:underline">https://www.nudgli.app</a><br />
+          Platform provider (technology only): Nudgli — <a href="https://www.nudgli.app" className="text-teal hover:underline">https://www.nudgli.app</a><br />
+          The sender of the customer messages described above is the individual Business, not Nudgli.<br />
           Terms of Service: <a href="/terms" className="text-teal hover:underline">https://www.nudgli.app/terms</a><br />
-          Privacy Policy: <a href="/privacy" className="text-teal hover:underline">https://www.nudgli.app/privacy</a>
+          Privacy Policy: <a href="/privacy" className="text-teal hover:underline">https://www.nudgli.app/privacy</a><br />
+          Support: <a href="mailto:support@nudgli.app" className="text-teal hover:underline">support@nudgli.app</a>
         </p>
       </div>
     </div>
