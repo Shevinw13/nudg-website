@@ -40,7 +40,7 @@ export function PricingCard({
         <ul className="text-sm text-gray-600 space-y-2 mb-6">
           {features.map((feature) => (
             <li key={feature} className="flex items-start gap-2">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0CBFA6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0 mt-0.5">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0CBFA6" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0 mt-0.5" aria-hidden="true">
                 <path d="M20 6L9 17l-5-5" />
               </svg>
               <span>{feature}</span>
@@ -49,7 +49,7 @@ export function PricingCard({
         </ul>
       )}
       <Button variant={highlighted ? "primary" : "outline"} href="#beta" className="w-full">
-        Coming Soon
+        Join the Beta
       </Button>
     </div>
   );
