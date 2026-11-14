@@ -6,7 +6,7 @@ import { AnimateOnScroll } from "@/components/ui/AnimateOnScroll";
 import { useState } from "react";
 
 const trustIndicators = [
-  "Review Shield free, forever",
+  "Review Shield included with Growth & Pro",
   "7-day free trial on all paid plans",
   "Cancel anytime",
 ];
@@ -53,11 +53,11 @@ export function BottomCta() {
 
           {/* Headline */}
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
-            Join the Beta
+            Join the Waitlist
           </h2>
 
           <p className="text-lg text-white/70 mb-8 max-w-lg">
-            Start free with Review Shield — monitor and protect your Google reviews at no cost. Ready to grow? Try any plan free for 7 days.
+            Coming soon to the App Store. Join the waitlist and try any plan free for 7 days. Try Review Shield free for 7 days, included with Growth and Pro.
           </p>
 
           {/* Beta Signup Form */}
@@ -98,7 +98,7 @@ export function BottomCta() {
                 disabled={status === "sending"}
                 className="w-full px-6 py-3 bg-teal text-white font-semibold rounded-lg hover:bg-teal/90 transition-colors mt-2 disabled:opacity-50"
               >
-                {status === "sending" ? "Sending..." : "Join the Beta"}
+                {status === "sending" ? "Sending..." : "Join the Waitlist"}
               </button>
               {status === "error" && (
                 <p className="text-red-400 text-sm mt-2">Something went wrong. Please try again.</p>

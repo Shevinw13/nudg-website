@@ -125,7 +125,7 @@ export const PRICING_TIERS: PricingTier[] = [
     smsQuota: '50 SMS/month',
     description: 'Solo operators just getting started',
     highlighted: false,
-    features: ['Feedback Flow & Direct Google modes', 'Feedback inbox', 'Real-time dashboard', 'Push notifications'],
+    features: ['Feedback Flow & Direct Google modes', 'Feedback inbox', 'Real-time dashboard', 'Push notifications', 'Review Shield not included'],
   },
   {
     id: 'growth',
@@ -135,7 +135,7 @@ export const PRICING_TIERS: PricingTier[] = [
     description: 'Growing businesses with steady clients',
     highlighted: true,
     badge: 'Most Popular',
-    features: ['Everything in Starter', 'Review Shield (AI monitoring)', 'Violation detection & reporting', 'AI response suggestions', 'Manual review analysis'],
+    features: ['Everything in Starter', 'Review Shield (AI monitoring)', 'Includes 7-day Review Shield free trial for new accounts', 'Violation detection & reporting', 'AI response suggestions', 'Manual review analysis'],
   },
   {
     id: 'pro',
@@ -173,7 +173,7 @@ export const VALUE_PROPOSITIONS: ValueProposition[] = [
   {
     icon: 'shield',
     title: 'Review Shield',
-    description: 'AI detects policy violations and helps you get unfair reviews removed.',
+    description: 'AI detects policy violations and helps you get unfair reviews removed. Try it free for 7 days; included with Growth and Pro.',
   },
   {
     icon: 'trending-up',

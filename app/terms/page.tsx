@@ -9,12 +9,12 @@ export default function TermsPage() {
       <h1 className="text-3xl font-bold text-navy mb-8">Terms of Service</h1>
       <div className="prose prose-gray max-w-none space-y-6 text-gray-700 [&_h2]:text-xl [&_h2]:font-semibold [&_h2]:text-navy [&_h2]:mt-8 [&_h3]:text-lg [&_h3]:font-medium [&_h3]:text-navy [&_h3]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-2">
         <p className="text-sm text-gray-500">
-          Effective Date: July 4, 2026
+          Effective Date: November 13, 2026
         </p>
 
         <p>
           These Terms of Service (&quot;Terms&quot;) govern your access to and use of the Nudgli mobile application
-          and website located at nudgli.app (collectively, the &quot;Service&quot;), operated by Nudgli (&quot;we,&quot;
+          and website located at nudgli.app (collectively, the &quot;Service&quot;), operated by Nudgli LLC (&quot;we,&quot;
           &quot;our,&quot; or &quot;us&quot;).
         </p>
         <p>
@@ -61,7 +61,7 @@ export default function TermsPage() {
 
         <h2>4. Subscriptions and Payment</h2>
         <ul>
-          <li>The Service offers a free tier (Review Shield only) and three paid subscription plans (Starter, Growth, Pro) that include SMS review requests.</li>
+          <li>The Service offers a free tier (account access only, with no SMS review requests) and three paid subscription plans (Starter, Growth, Pro) that include SMS review requests. Review Shield is included with the Growth and Pro plans.</li>
           <li>All paid plans include a 7-day free trial. Users will not be charged during the trial period. SMS messaging is not available during the free trial; it activates upon the first payment.</li>
           <li>Subscriptions auto-renew monthly unless cancelled at least 24 hours before the end of the current billing period.</li>
           <li>Payment is charged to the user&apos;s Apple ID account at confirmation of purchase.</li>
@@ -152,7 +152,7 @@ export default function TermsPage() {
         </ul>
 
         <h2>11. Review Shield</h2>
-        <p>Review Shield is an AI-powered review monitoring feature available to Growth and Pro subscribers. By using Review Shield, you acknowledge and agree that:</p>
+        <p>Review Shield is an AI-powered review monitoring feature available to Growth and Pro subscribers. Every new account also receives a one-time 7-day free Review Shield trial. By using Review Shield, you acknowledge and agree that:</p>
         <ul>
           <li>Review Shield analyzes publicly available Google reviews for potential policy violations. It does not guarantee the removal of any review.</li>
           <li>AI-generated analysis and response suggestions are provided as guidance only. You are solely responsible for any actions you take, including reporting reviews to Google or posting public responses.</li>

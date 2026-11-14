@@ -49,7 +49,7 @@ export function PricingCard({
         </ul>
       )}
       <Button variant={highlighted ? "primary" : "outline"} href="#beta" className="w-full">
-        Join the Beta
+        Join the Waitlist
       </Button>
     </div>
   );

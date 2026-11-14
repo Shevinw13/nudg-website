@@ -68,9 +68,9 @@ export function Hero() {
                 variant="primary"
                 size="lg"
                 href="#beta"
-                ariaLabel="Join the Nudgli beta"
+                ariaLabel="Join the Nudgli waitlist"
               >
-                Join the Beta
+                Join the Waitlist
               </Button>
             </div>
           </AnimateOnScroll>

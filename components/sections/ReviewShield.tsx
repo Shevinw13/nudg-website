@@ -33,7 +33,7 @@ export function ReviewShield() {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-mint rounded-full px-4 py-2 mb-6">
             <Icon name="shield" size={16} className="text-teal" ariaHidden />
-            <span className="text-sm font-medium text-navy">Included in Growth &amp; Pro plans</span>
+            <span className="text-sm font-medium text-navy">7-day free trial · Included with Growth &amp; Pro</span>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy mb-4">
             Bad reviews don&apos;t have to stick.

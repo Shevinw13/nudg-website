@@ -40,7 +40,7 @@ export function Pricing() {
       </div>
 
       <div className="text-center text-sm text-gray-500 mt-10 space-y-1">
-        <p>Start free with Review Shield · Try any paid plan free for 7 days · SMS unlocks after trial</p>
+        <p>Try Review Shield free for 7 days, included with Growth and Pro · Every paid plan has a 7-day free trial · SMS activates after your first payment</p>
         <p>Reached your monthly SMS limit? Upgrade anytime — your plan resets at the start of each billing cycle.</p>
         <p>Cancel anytime · Subscriptions managed through the Apple App Store</p>
       </div>

@@ -23,13 +23,13 @@ export function Footer() {
           {/* Column 2: App Store Download */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-lightGray mb-4">
-              Get Early Access
+              Get Notified
             </h3>
-            <p className="text-xs text-white/50 mb-3">Beta available now · App Store release coming soon</p>
+            <p className="text-xs text-white/50 mb-3">Coming soon to the App Store</p>
             <a
               href="#beta"
               className="inline-flex items-center gap-2 min-h-[44px] bg-white text-navy px-4 py-2.5 rounded-lg font-semibold text-sm transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal"
-              aria-label="Join the Nudgli beta — App Store release coming soon"
+              aria-label="Join the Nudgli waitlist — coming soon to the App Store"
             >
               <svg
                 width="20"
@@ -48,7 +48,7 @@ export function Footer() {
                   fill="#0B1D3A"
                 />
               </svg>
-              Join the Beta
+              Join the Waitlist
             </a>
           </div>
 
